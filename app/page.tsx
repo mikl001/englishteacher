@@ -48,9 +48,9 @@ const features = [
 ];
 
 const stats = [
-  { value: "120", label: "слов в наборе" },
-  { value: "18", label: "текстов · A1–B1" },
-  { value: "45", label: "упражнений" },
+  { value: "420", label: "слов в наборе" },
+  { value: "60", label: "текстов · A1–B1" },
+  { value: "135", label: "упражнений" },
   { value: "7", label: "инструментов" },
 ];
 
@@ -130,7 +130,7 @@ export default function LandingPage() {
               {/* Имитация окна карточки */}
               <div className="mx-auto max-w-md space-y-4">
                 <div className="flex items-center justify-between text-xs uppercase tracking-wider text-zinc-500">
-                  <span>Карточка 12 из 120</span>
+                  <span>Карточка 42 из 420</span>
                   <span>Природа</span>
                 </div>
                 <div className="h-1.5 w-full overflow-hidden rounded-full bg-zinc-800">

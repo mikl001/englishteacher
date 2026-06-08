@@ -37,74 +37,326 @@
   },
   {
     "id": "t7",
+    "title": "My Room",
+    "level": "A1",
+    "content": "My room is small but I love it. There is a bed near the window. Next to the bed there is a small table with a lamp. I have many books on the shelf. My desk is by the wall. I can see a big tree from the window. In the evening I read in bed."
+  },
+  {
+    "id": "t8",
+    "title": "Weather Today",
+    "level": "A1",
+    "content": "Today the weather is good. The sun is shining and the sky is blue. There is a light wind. It is not too hot, not too cold. I want to go for a long walk in the park. Maybe I will take some photos. Tomorrow it will rain, so today I want to enjoy the sun."
+  },
+  {
+    "id": "t9",
+    "title": "My Best Friend",
+    "level": "A1",
+    "content": "My best friend's name is Anna. We met at school when we were nine. Anna is funny and kind. She loves books and old films. We live in different cities now, but we call each other every week. When she visits me, we walk for hours and talk about everything. A good friend is hard to find."
+  },
+  {
+    "id": "t10",
+    "title": "Going to the Park",
+    "level": "A1",
+    "content": "I love going to the park near my house. In the morning the park is quiet. Old people walk their dogs. Children play near the lake. I sit on a bench and read for an hour. Sometimes I bring a small thermos of tea. After the park I feel happy and ready for the day."
+  },
+  {
+    "id": "t11",
+    "title": "My First Job",
+    "level": "A1",
+    "content": "My first job was in a small shop. I was eighteen years old. I sold bread and milk. The shop was small but always full of people. The owner was a kind old man. I worked there for one summer. I made a little money and learned how to talk to people. I will never forget that summer."
+  },
+  {
+    "id": "t12",
+    "title": "Sunday Morning",
+    "level": "A1",
+    "content": "Sunday morning is my favourite time of the week. I wake up late. I make a big breakfast — eggs, toast and coffee. Then I sit by the window and read the newspaper. There is no rush. The street outside is quiet. I love this slow start to the day. Other days are busy, but Sunday is peaceful."
+  },
+  {
+    "id": "t13",
+    "title": "Family Dinner",
+    "level": "A1",
+    "content": "Every Friday my family has dinner together. My mother cooks something special. My father opens a bottle of wine. My brother always brings a cake. We sit around the table and tell stories from the week. The kitchen smells like soup and bread. After dinner we play a board game. It is a small but very important tradition."
+  },
+  {
+    "id": "t14",
+    "title": "A Trip to the Sea",
+    "level": "A1",
+    "content": "Last summer I went to the sea. The water was warm and the sand was soft. I swam every day. In the evening I walked along the beach and watched the sun go down. I ate a lot of fish and ice cream. I read three books that week. I want to go back next year."
+  },
+  {
+    "id": "t15",
+    "title": "My Dream",
+    "level": "A1",
+    "content": "My big dream is simple. I want a small house in the country. I want a garden with apple trees and flowers. I want a dog and maybe one cat. I want to write in the morning and walk in the afternoon. Maybe one day this dream will come true. Until then, I keep working and saving."
+  },
+  {
+    "id": "t16",
+    "title": "Cooking with Grandma",
+    "level": "A1",
+    "content": "My grandmother makes the best soup in the world. When I visit her, we cook together. She tells me what to do, but she never writes anything down. The recipe is in her head. She always says that good food is made with love. I try to remember everything. I hope one day my soup will be as good as hers."
+  },
+  {
+    "id": "t17",
+    "title": "Bus to the Office",
+    "level": "A1",
+    "content": "I take the bus to the office every morning. It takes about thirty minutes. I always sit by the window. Sometimes I read a book. Sometimes I just look at the city waking up. People get on and off at every stop. I see the same faces every week. When I see them, I know I'm not far from my stop."
+  },
+  {
+    "id": "t18",
+    "title": "Rainy Afternoon",
+    "level": "A1",
+    "content": "It started raining at lunch. The streets quickly got empty. I didn't have an umbrella, so I sat in a small bookshop. I drank tea and read for two hours. The rain was loud on the windows. I felt warm and safe inside. Sometimes a rainy day is exactly what you need."
+  },
+  {
+    "id": "t19",
+    "title": "Music in the Evening",
+    "level": "A1",
+    "content": "Every evening I listen to music. I sit on the sofa with a cup of tea. My favourite song is slow and old. I close my eyes and just listen. Music helps me forget about a hard day. Twenty minutes of music, and I feel like a new person."
+  },
+  {
+    "id": "t20",
+    "title": "A New Bike",
+    "level": "A1",
+    "content": "Yesterday I bought a new bike. It is blue with a black seat. It was not very expensive. Today I went for my first ride. I cycled to the river and back. My legs are a little tired now, but I feel great. I want to cycle to work every day from now on."
+  },
+  {
+    "id": "t21",
     "title": "A Walk in the City",
     "level": "A2",
     "content": "On Saturday we went for a walk in the city. The streets were full of people. We visited a small bookshop and bought two new books. Later we stopped at a cafe near the river. I had tea with lemon and my friend ordered hot chocolate. We talked for almost an hour. In the evening we took a bus home. It was a simple but very nice day."
   },
   {
-    "id": "t8",
+    "id": "t22",
     "title": "A Difficult Day at Work",
     "level": "A2",
     "content": "Yesterday was a hard day at the office. I had three meetings in the morning and no time for lunch. My manager asked me to finish a report before Friday. I felt tired and a little nervous. In the evening I went home, made dinner, and watched a comedy. After thirty minutes of laughing I felt much better. Tomorrow will be a better day, I'm sure."
   },
   {
-    "id": "t9",
+    "id": "t23",
     "title": "Learning a Language",
     "level": "A2",
     "content": "Learning a new language is not easy. You need patience and a little time every day. I usually study English for thirty minutes in the morning. I read short stories and write down new words in a notebook. Sometimes I watch videos with subtitles. The most important thing is to practice often. Even five minutes a day is better than nothing. Small steps lead to real progress."
   },
   {
-    "id": "t10",
+    "id": "t24",
     "title": "Moving to a New City",
     "level": "A2",
     "content": "Two years ago I moved to a new city for work. At first it was difficult. I didn't know anyone and I didn't speak the language well. I felt lonely in the evenings. Then I started going to a small language school. I met other people who were new in the city too. Now I have good friends here and I really love my new home."
   },
   {
-    "id": "t11",
+    "id": "t25",
     "title": "My First Trip Abroad",
     "level": "A2",
     "content": "I still remember my first trip abroad. I was twenty and I flew to Italy with two friends. We had very little money but a lot of energy. We slept in cheap hostels and ate pasta almost every day. We walked for hours in old cities and got lost many times. The people were kind and patient with our bad English. That trip changed something in me. Travel became a part of my life after it."
   },
   {
-    "id": "t12",
+    "id": "t26",
     "title": "An Evening with Friends",
     "level": "A2",
     "content": "Last Friday I invited a few friends for dinner. I cooked pasta with mushrooms and made a simple salad. We sat around the table for almost three hours. Nobody looked at their phone. We talked about work, films, old memories and silly jokes. After dinner we played a card game and laughed a lot. Evenings like this don't happen often, and that's why they feel so special."
   },
   {
-    "id": "t13",
+    "id": "t27",
+    "title": "An Unusual Neighbour",
+    "level": "A2",
+    "content": "I have lived in this building for five years. Most of my neighbours are quiet. But one neighbour is very different. He's an old man with a long white beard. Every morning at six, he goes to the park to feed the birds. People say he was a famous musician many years ago. I don't know if it's true. But sometimes I hear soft piano music from his window late at night. It's beautiful."
+  },
+  {
+    "id": "t28",
+    "title": "Learning to Cook",
+    "level": "A2",
+    "content": "Three years ago I couldn't cook anything. I ate cheap pizza and instant noodles every day. Then I decided to change. I started with simple things — eggs, soup, pasta. I watched videos online and tried new recipes every weekend. Now I cook real meals almost every day. My friends ask me for recipes. Cooking became my way to relax after a busy day at work."
+  },
+  {
+    "id": "t29",
+    "title": "The Lost Notebook",
+    "level": "A2",
+    "content": "Last week I lost my favourite notebook on the train. I felt terrible. It had a year of my ideas and notes inside. I called the train company without much hope. Two days later, an old woman called me. She found the notebook on the seat. She read my address inside and decided to send it back. She didn't want any money. People are sometimes much better than we expect."
+  },
+  {
+    "id": "t30",
+    "title": "Saturday at the Market",
+    "level": "A2",
+    "content": "On Saturday morning I go to the local market. It opens at seven, but I usually arrive around nine. The fruit is fresh and the bread is still warm. I always stop at the same coffee stand. The owner remembers my order. I buy vegetables for the week and a flower for the kitchen. It takes me an hour, but it feels good. Online shopping is fast, but the market has something special."
+  },
+  {
+    "id": "t31",
+    "title": "Why I Started Running",
+    "level": "A2",
+    "content": "Two years ago I couldn't run for five minutes. I had no energy and slept badly. My doctor said I needed exercise. I started slowly — five minutes a day. After a month, I could run for fifteen minutes. After six months, I ran my first race. Now I run three times a week. Running gave me back my energy. It's the best medicine I know."
+  },
+  {
+    "id": "t32",
+    "title": "An Old Photograph",
+    "level": "A2",
+    "content": "Yesterday I found an old photograph in a book. It was from my parents' wedding. They were so young and so happy. My mother had long hair and a white dress. My father wore a black suit and laughed at something. They didn't know what life would bring. They didn't know they would have me, or move to another city, or get older. The photo made me smile and miss them at the same time."
+  },
+  {
+    "id": "t33",
+    "title": "A Phone Call from Home",
+    "level": "A2",
+    "content": "My mother called me last night. She lives in a small town, six hours away by train. We don't see each other often. She told me about the garden, about our old neighbour who got a new dog, about the rain last weekend. I told her about my work and my new flat. The phone call was simple, nothing important. But after she said goodbye, I sat in silence for a long time. I should call her more often."
+  },
+  {
+    "id": "t34",
+    "title": "Working from Home",
+    "level": "A2",
+    "content": "I have been working from home for over a year now. At first I loved it. No traffic, no early alarm, no boring office. But after a few months I started to miss small things — coffee with colleagues, short walks between meetings, real conversations. Now I work from home three days a week and go to the office two days. It's a good balance. I have peace at home and people at work."
+  },
+  {
+    "id": "t35",
+    "title": "A New Hobby",
+    "level": "A2",
+    "content": "Last winter I started painting. I was forty years old and had never painted before. I bought cheap colours and a small notebook. My first pictures were terrible. But I didn't stop. I painted for thirty minutes every evening. After three months, I painted my first picture I really liked. Now my flat is full of small paintings. It's never too late to start something new."
+  },
+  {
+    "id": "t36",
+    "title": "Lost in Tokyo",
+    "level": "A2",
+    "content": "On my third day in Tokyo I got lost. My phone battery was dead. I didn't speak Japanese. The streets all looked the same. I felt nervous, but I tried to stay calm. I went into a small shop and showed the owner my hotel address. He didn't speak English, but he understood. He walked with me for ten minutes to make sure I found the way. I will never forget his kindness."
+  },
+  {
+    "id": "t37",
+    "title": "The Book That Changed Me",
+    "level": "A2",
+    "content": "Three years ago I read a book about habits. I didn't expect much. But the simple ideas in that book changed my whole life. I learned that big changes start with very small actions. I started reading ten pages a day. Now I read fifty books a year. I started walking ten minutes a day. Now I walk an hour every day. Small steps, every day, are stronger than big plans."
+  },
+  {
+    "id": "t38",
+    "title": "Sunday at My Grandmother's",
+    "level": "A2",
+    "content": "Every Sunday I visit my grandmother. She lives alone in a small flat. I bring her bread and fresh fruit. We have tea and she tells me old stories I've heard many times. She forgets some names now. Sometimes she asks me the same question twice. But she always smiles when she sees me. I know these Sundays won't last forever. So I listen, even when I've heard the story before."
+  },
+  {
+    "id": "t39",
+    "title": "A Difficult Decision",
+    "level": "A2",
+    "content": "Last year I had to make a difficult decision. My company offered me a job in another country. The salary was great, the city was beautiful. But it meant leaving my family and friends for at least two years. I thought about it for two weeks. In the end, I said no. Some people think I made a mistake. But I'm happy with my choice. Money is important, but it's not everything."
+  },
+  {
+    "id": "t40",
+    "title": "Why I Love Mornings",
+    "level": "A2",
+    "content": "When I was younger, I hated mornings. I slept until eleven and started the day in a bad mood. Now I love mornings more than any other part of the day. I wake up at six, before the city does. I make coffee in silence. I read for thirty minutes. By the time everyone else wakes up, I've already had two hours just for me. It's the best gift I give myself every day."
+  },
+  {
+    "id": "t41",
     "title": "The Power of Habits",
     "level": "B1",
     "content": "Habits shape almost everything we do. We brush our teeth, check our phone, and pour our morning coffee without even thinking about it. Small habits, repeated every day, build the person we become. If you want to learn a language, you don't need to study for hours once a week. You need to study just a little, every single day. After a few months, the difference is huge. The secret isn't motivation — motivation comes and goes. The secret is showing up, even when you don't feel like it."
   },
   {
-    "id": "t14",
+    "id": "t42",
     "title": "Why I Stopped Watching the News",
     "level": "B1",
     "content": "For years I read the news every morning before doing anything else. I thought it was important to know what was happening in the world. But after a while I noticed something. The news made me anxious. I started my day worried about events I could not change. So I decided to try a small experiment. I stopped checking the news in the morning and read it only in the evening, for fifteen minutes. After a month I felt calmer and more focused at work. I still know what's going on — I just don't let it ruin my morning."
   },
   {
-    "id": "t15",
+    "id": "t43",
     "title": "A Letter from a Friend",
     "level": "B1",
     "content": "Dear Anna, it was so nice to hear from you last week. I'm sorry I'm only writing now, but life has been very busy. I finally finished the project at work and I have a few days off. The weather here is wonderful — warm in the day and cool in the evening. We had dinner in the garden last night. The kids asked when you would come and visit us again. Please send my best wishes to your family. Take care, and write back when you can."
   },
   {
-    "id": "t16",
+    "id": "t44",
     "title": "The Last Train",
     "level": "B1",
     "content": "It was almost midnight when I arrived at the station. The platform was empty except for an old man with a small suitcase. He smiled at me kindly and asked if I was waiting for the last train to the coast. I said yes, and we started talking. He told me he had taken the same train every Friday for thirty years. His daughter lived by the sea, and he always spent the weekend with her. When the train finally arrived, we sat in different carriages. But I kept thinking about him — about all the small, quiet rituals that make a life."
   },
   {
-    "id": "t17",
+    "id": "t45",
     "title": "The Art of Saying No",
     "level": "B1",
     "content": "For a long time I said yes to almost everything. Yes to extra projects, yes to late meetings, yes to weekend favours. I thought I was being kind. In reality, I was slowly running out of energy for the things I actually cared about. Learning to say no didn't make me a worse person. It made me a more honest one. Now, when I say yes, I really mean it. And when I say no, I don't apologise for ten minutes afterwards. Time, like attention, is a limited resource — and protecting it is not selfish."
   },
   {
-    "id": "t18",
+    "id": "t46",
     "title": "Why Mornings Matter",
     "level": "B1",
     "content": "I used to think mornings were just something to survive. Coffee, news, a quick shower, run out the door. Then a friend suggested I try something different — fifteen minutes of silence before opening any screen. The first few days were strange. My mind wanted noise. But slowly, that quiet space became the most valuable part of my day. I make better decisions. I'm calmer in difficult conversations. Nothing magical happens in those fifteen minutes — and that's exactly the point. A morning that belongs to you sets the tone for everything else."
+  },
+  {
+    "id": "t47",
+    "title": "The Friend I Hadn't Called",
+    "level": "B1",
+    "content": "Yesterday I called a friend I hadn't spoken to for two years. There was no real reason. I was sitting in a cafe, his name came to my mind, and I called. He picked up after one ring, as if he had been waiting. We talked for almost an hour. He had moved to a different country. He had become a father. His voice was the same, but his life had changed completely. We promised to call more often. I'm not sure we will. But sometimes one phone call is enough to remind you that some people stay important, even when years go by."
+  },
+  {
+    "id": "t48",
+    "title": "Slow Internet",
+    "level": "B1",
+    "content": "Our internet was broken for three days last week. The first day was painful. I kept checking my phone for new messages that wouldn't load. The second day was strange. I read an entire book — something I hadn't done in months. The third day was peaceful. I cooked something complicated. I called my mother. I went for a long walk without listening to anything. When the internet came back, I felt almost disappointed. We forget how full our minds are until we accidentally empty them."
+  },
+  {
+    "id": "t49",
+    "title": "Why I Stopped Trying to Be Perfect",
+    "level": "B1",
+    "content": "For most of my twenties, I tried to be perfect. Perfect at work, perfect with friends, perfect on holiday. I planned everything in detail and felt terrible when things went wrong. Then one summer I got sick and spent a month in bed. My plans fell apart. Nothing terrible happened. The world didn't end. I realized that perfection was a story I was telling myself, not something anyone else expected. Now I try to do good work, but I let things be imperfect. I'm tired far less often."
+  },
+  {
+    "id": "t50",
+    "title": "The Old Bookshop",
+    "level": "B1",
+    "content": "There is an old bookshop on my street that has been there longer than I have lived in this city. The windows are small, the lights inside are warm, and the owner — a quiet woman in her seventies — knows the location of every book. Online shops are faster and cheaper, but I still go there once a month. I lose track of time. I leave with one book I planned to buy and three I didn't. Some places teach you that being a little inefficient is part of being human."
+  },
+  {
+    "id": "t51",
+    "title": "Conversation with a Stranger",
+    "level": "B1",
+    "content": "On the train back from the coast, I sat next to a man in his sixties. We didn't speak for the first hour. Then he asked me if I had read the book in my hands. I said yes. He said he had read it forty years ago and it had changed his life. We talked for the rest of the journey — three hours — about books, about regrets, about quiet decisions that turn out to matter. I never saw him again. But I think about that conversation more often than I think about most of the people I see every week."
+  },
+  {
+    "id": "t52",
+    "title": "The Cost of Convenience",
+    "level": "B1",
+    "content": "Everything in my flat was delivered to my door. The groceries, the books, the new shoes. I rarely leave the building during the week. I save time, I save energy, and I'm tired anyway. Last month I started going to small local shops again. The bread tastes better. I talk to the baker, who remembers what I bought last time. The walk wakes me up. I pay a little more and waste a little time. But I feel more like a person and less like a customer."
+  },
+  {
+    "id": "t53",
+    "title": "A Hard Year",
+    "level": "B1",
+    "content": "Last year was difficult. I lost my job in March. My grandmother died in May. I broke up with someone I loved in August. For most of the year, I was just trying to survive each day. But strange things happened. I started writing again, after fifteen years. I made two new friends I now trust completely. I learned that I'm stronger than I thought. I wouldn't choose to live that year again. But I'm not the same person I was before it, and I'm not sure I want to be."
+  },
+  {
+    "id": "t54",
+    "title": "Twenty Minutes of Silence",
+    "level": "B1",
+    "content": "Every morning I sit in silence for twenty minutes. No phone, no music, no plans for the day. Just me and a cup of tea by the window. People ask me what I do during that time. The honest answer is — almost nothing. My mind wanders. I notice the light. I sometimes have an idea. Twenty minutes isn't much. But it's the difference between feeling like I own my day and feeling like the day owns me. I haven't found anything else that simple and that helpful."
+  },
+  {
+    "id": "t55",
+    "title": "Why I Took the Long Road",
+    "level": "B1",
+    "content": "When I finished university, I had a clear plan. Get a good job, work hard, get promoted. For ten years I did exactly that. Then I quit. Everyone thought I was crazy. I spent a year travelling, working in cafes and small farms. I made very little money. But I met people I'd never have met. I read books I'd never have read. When I came back, I started over in a completely different career. It took longer to get where I wanted. But I arrived as a different, better person."
+  },
+  {
+    "id": "t56",
+    "title": "Quiet Confidence",
+    "level": "B1",
+    "content": "I used to think confident people were the loudest in the room. They had the firmest opinions and never seemed unsure. As I got older, I noticed something. The people I really respect aren't loud at all. They listen carefully. They change their mind when they hear a good argument. They admit when they don't know something. Their confidence is quiet, because it doesn't need to prove anything. That's the kind of confidence I'm trying to grow in myself, slowly."
+  },
+  {
+    "id": "t57",
+    "title": "The Email I Never Sent",
+    "level": "B1",
+    "content": "There's an email in my drafts folder that I wrote eight years ago. It's to a friend I had a serious argument with. I wrote everything I wanted to say — calm, honest, kind. I never sent it. Sometimes I open it and read it. The friend and I have drifted apart now. We have not spoken in years. I'm not sure if sending the email would have changed anything. But I know writing it changed something in me. Some words help most when they're written, even if no one reads them."
+  },
+  {
+    "id": "t58",
+    "title": "The Beauty of Routine",
+    "level": "B1",
+    "content": "I used to find routines boring. I wanted every day to be different and exciting. Now, at thirty-six, I have almost the same routine every weekday. I wake up at six. I make the same breakfast. I work in the same hours. I walk the same route in the evening. People my age sometimes ask if I get bored. I don't. The routine takes care of small decisions, so my mind is free for the things that matter. There's a quiet beauty in doing the same thing well, every day."
+  },
+  {
+    "id": "t59",
+    "title": "What I Wish I Knew at Twenty",
+    "level": "B1",
+    "content": "If I could send one letter back to my twenty-year-old self, it would be short. I'd say: most of the things you're worried about right now won't matter in ten years. The people you're trying to impress won't remember. The career path you think is the only one — there are five others you can't even see yet. Be kinder to yourself. Read more. Spend more time with your grandparents. Save a little money, but not too much. And call your parents on Sundays, even when you don't feel like it."
+  },
+  {
+    "id": "t60",
+    "title": "The Question I Keep Asking",
+    "level": "B1",
+    "content": "There's one question I keep asking myself lately. Not at work, not in big decisions — just in normal moments during the day. The question is: is this the way I want to spend this hour? Most of the time, the honest answer is no. I'm scrolling on my phone, or doing busywork, or watching something I won't remember tomorrow. It's a small question. But asking it ten times a day slowly changes how I live. I don't always change what I'm doing. But at least now I know I chose it."
   }
 ]

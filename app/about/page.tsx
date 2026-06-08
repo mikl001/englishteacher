@@ -49,12 +49,12 @@ const features = [
   },
   {
     title: "Грамматика по темам",
-    body: "16 тем (от Present Simple до пассивного залога и условных). На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
+    body: "21 тема (от Present Simple до пассивного залога, условных, косвенной речи, предлогов). На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
     files: "app/grammar/page.tsx, data/default-exercises.json",
   },
   {
     title: "Словарь с фильтрами",
-    body: "120 слов по 10 темам. Фильтры по статусам, поиск по строке, форма добавления своих слов. Статус подсвечивается светящейся точкой.",
+    body: "420 слов по 30 темам. Фильтры по статусам, поиск по строке, форма добавления своих слов. Статус подсвечивается светящейся точкой.",
     files: "app/dictionary/page.tsx",
   },
   {
@@ -92,9 +92,9 @@ const tree = [
   "components/             — Card, Button, Nav, StatCard,",
   "                          ProgressBar, SpeakButton, Heatmap",
   "lib/                    — storage.ts, chat.ts, speech.ts, types.ts",
-  "data/                   — default-words.json (120),",
-  "                          default-texts.json (18),",
-  "                          default-exercises.json (45)",
+  "data/                   — default-words.json (420),",
+  "                          default-texts.json (60),",
+  "                          default-exercises.json (135)",
 ];
 
 export default function AboutPage() {

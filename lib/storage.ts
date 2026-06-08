@@ -24,7 +24,7 @@ const CHAT_HISTORY_KEY = "chat_history";
 
 // Версия дефолтного контента. При увеличении старые кеши слов/текстов/упражнений
 // автоматически перезатираются новым набором, прогресс при этом сохраняется.
-const DEFAULTS_VERSION = 3;
+const DEFAULTS_VERSION = 4;
 const VERSION_KEY = "defaults_version";
 
 function maybeMigrateDefaults(): void {
