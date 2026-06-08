@@ -24,7 +24,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
@@ -34,11 +34,13 @@
     color: #fafafa;
   }
 
-  /* Чёткий outline только при навигации клавиатурой */
+  /* Чёткий outline только при навигации клавиатурой.
+     Скрываем стандартный outline только когда :focus-visible НЕ применяется —
+     иначе пользователи без поддержки :focus-visible полностью теряют фокус. */
   :focus-visible {
     @apply outline-2 outline-offset-2 outline-indigo-400;
   }
-  *:focus {
+  *:focus:not(:focus-visible) {
     outline: none;
   }
 
@@ -57,6 +59,16 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(63 63 70);
   }
+}
+
+/* Утилита: спрятать скроллбар, но оставить возможность скролла —
+   нужна для горизонтальной навигации в Nav на узких экранах. */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* Тонкое появление содержимого после раскрытия */

@@ -34,6 +34,12 @@ const features = [
     href: "/grammar",
   },
   {
+    title: "Словарь с фильтрами",
+    description: "Все слова в одном месте. Фильтры по статусу, поиск, ручное добавление.",
+    icon: "❒",
+    href: "/dictionary",
+  },
+  {
     title: "Прогресс и привычка",
     description: "Серия дней, тепловая карта 35 дней, распределение словаря по статусам.",
     icon: "▦",
@@ -67,8 +73,9 @@ export default function LandingPage() {
 
         <div className="mx-auto max-w-4xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs text-zinc-400 backdrop-blur">
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.7)]" />
-            Личный проект · сделано как pet
+            <span className="font-mono text-zinc-500">v1</span>
+            <span className="h-1 w-1 rounded-full bg-zinc-700" />
+            Личный pet-проект · open source
           </div>
 
           <h1 className="mt-6 text-5xl font-semibold leading-[1.05] tracking-tight text-zinc-100 sm:text-6xl md:text-7xl">
@@ -168,7 +175,7 @@ export default function LandingPage() {
         <div className="mx-auto max-w-5xl">
           <div className="mb-12 text-center">
             <h2 className="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">
-              Шесть инструментов под одной крышей
+              Семь инструментов под одной крышей
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-zinc-400">
               Каждый отвечает за свою сторону языка. Прогресс по карточкам копится в общую статистику.

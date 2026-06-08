@@ -43,8 +43,21 @@ const sections = [
   { href: "/progress", title: "Прогресс", description: "Серия дней, статистика и тепловая карта активности.", hint: "статистика" },
 ];
 
+// Начальное состояние с нулями — чтобы не было flash «—» → числа на первом рендере.
+// Реальные числа подтянутся через useEffect, плавно перезаписав нули.
+const INITIAL_DATA: DashboardData = {
+  todayReviewed: 0,
+  todayLearned: 0,
+  streak: 0,
+  totalKnown: 0,
+  totalWords: 0,
+  totalTexts: 0,
+  totalExercises: 0,
+  wordOfDay: null,
+};
+
 export default function DashboardPage() {
-  const [data, setData] = useState<DashboardData | null>(null);
+  const [data, setData] = useState<DashboardData>(INITIAL_DATA);
 
   useEffect(() => {
     const words = getWords();
@@ -85,12 +98,12 @@ export default function DashboardPage() {
       </section>
 
       <section className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-        <StatCard label="Сегодня повторено" value={data?.todayReviewed ?? "—"} accent="indigo" />
-        <StatCard label="Сегодня выучено" value={data?.todayLearned ?? "—"} accent="emerald" />
-        <StatCard label="Серия дней" value={data?.streak ?? "—"} accent="amber" />
+        <StatCard label="Сегодня повторено" value={data.todayReviewed} accent="indigo" />
+        <StatCard label="Сегодня выучено" value={data.todayLearned} accent="emerald" />
+        <StatCard label="Серия дней" value={data.streak} accent="amber" />
         <StatCard
           label="В словаре"
-          value={data ? `${data.totalKnown} / ${data.totalWords}` : "—"}
+          value={`${data.totalKnown} / ${data.totalWords}`}
           hint="изучено / всего"
         />
       </section>
@@ -126,7 +139,7 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {data?.wordOfDay && (
+      {data.wordOfDay && (
         <section>
           <h2 className="mb-4 text-xs font-medium uppercase tracking-wider text-zinc-500">
             Слово дня
@@ -152,8 +165,7 @@ export default function DashboardPage() {
   );
 }
 
-function countFor(hint: string, data: DashboardData | null): string | null {
-  if (!data) return null;
+function countFor(hint: string, data: DashboardData): string | null {
   switch (hint) {
     case "ai-агент":
       return "разговорная практика";

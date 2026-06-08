@@ -24,51 +24,59 @@ export default function ReadingPage() {
     setTexts(getTexts());
   }, []);
 
+  // Если currentId ссылается на исчезнувший текст (после сброса данных) —
+  // сбрасываем выбор в эффекте, не в фазе рендера.
+  useEffect(() => {
+    if (currentId && texts && !texts.find((t) => t.id === currentId)) {
+      setCurrentId(null);
+    }
+  }, [currentId, texts]);
+
   if (texts === null) {
     return <div className="text-zinc-500">Загрузка…</div>;
   }
 
-  if (currentId === null) {
-    return (
-      <div className="mx-auto max-w-3xl space-y-6">
-        <h1 className="text-3xl font-semibold tracking-tight text-zinc-100">
-          Чтение
-        </h1>
-        <p className="text-sm text-zinc-400">
-          Нажми на слово в тексте — увидишь перевод или сможешь добавить новое.
-        </p>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {texts.map((t) => (
-            <button
-              key={t.id}
-              onClick={() => setCurrentId(t.id)}
-              className="group text-left transition-all duration-200 hover:-translate-y-0.5"
-            >
-              <Card className="h-full p-5 transition-all group-hover:border-zinc-700 group-hover:bg-zinc-900/80">
-                <div className="flex items-baseline justify-between gap-2">
-                  <h2 className="text-lg font-semibold text-zinc-100">
-                    {t.title}
-                  </h2>
-                  {t.level && <LevelBadge level={t.level} />}
-                </div>
-                <p className="mt-2 line-clamp-3 text-sm text-zinc-400">
-                  {t.content}
-                </p>
-              </Card>
-            </button>
-          ))}
-        </div>
+  const currentText = currentId
+    ? texts.find((t) => t.id === currentId) ?? null
+    : null;
+
+  if (currentText) {
+    return <ReadingView text={currentText} onBack={() => setCurrentId(null)} />;
+  }
+
+  // Список текстов: показываем когда currentId === null
+  // или когда выбранный id указывает на исчезнувший текст (эффект выше его сбросит).
+  return (
+    <div className="mx-auto max-w-3xl space-y-6">
+      <h1 className="text-3xl font-semibold tracking-tight text-zinc-100">
+        Чтение
+      </h1>
+      <p className="text-sm text-zinc-400">
+        Нажми на слово в тексте — увидишь перевод или сможешь добавить новое.
+      </p>
+      <div className="grid gap-3 sm:grid-cols-2">
+        {texts.map((t) => (
+          <button
+            key={t.id}
+            onClick={() => setCurrentId(t.id)}
+            className="group text-left transition-all duration-200 hover:-translate-y-0.5"
+          >
+            <Card className="h-full p-5 transition-all group-hover:border-zinc-700 group-hover:bg-zinc-900/80">
+              <div className="flex items-baseline justify-between gap-2">
+                <h2 className="text-lg font-semibold text-zinc-100">
+                  {t.title}
+                </h2>
+                {t.level && <LevelBadge level={t.level} />}
+              </div>
+              <p className="mt-2 line-clamp-3 text-sm text-zinc-400">
+                {t.content}
+              </p>
+            </Card>
+          </button>
+        ))}
       </div>
-    );
-  }
-
-  const currentText = texts.find((t) => t.id === currentId);
-  if (!currentText) {
-    setCurrentId(null);
-    return null;
-  }
-
-  return <ReadingView text={currentText} onBack={() => setCurrentId(null)} />;
+    </div>
+  );
 }
 
 function LevelBadge({ level }: { level: "A1" | "A2" | "B1" }) {
@@ -94,24 +102,25 @@ function ReadingView({
 }) {
   const tokens = useMemo(() => tokenize(text.content), [text.content]);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (selectedIdx === null) return;
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") setSelectedIdx(null);
     }
-    function onClick(e: MouseEvent) {
+    // Используем click (а не mousedown), чтобы onClick на самом span успел
+    // обработаться первым и переключить выделение без моргания popover.
+    function onDocClick(e: MouseEvent) {
       const t = e.target as HTMLElement;
       if (!t.closest("[data-word]") && !t.closest("[data-popover]")) {
         setSelectedIdx(null);
       }
     }
     document.addEventListener("keydown", onKey);
-    document.addEventListener("mousedown", onClick);
+    document.addEventListener("click", onDocClick);
     return () => {
       document.removeEventListener("keydown", onKey);
-      document.removeEventListener("mousedown", onClick);
+      document.removeEventListener("click", onDocClick);
     };
   }, [selectedIdx]);
 
@@ -134,10 +143,7 @@ function ReadingView({
         {text.level && <LevelBadge level={text.level} />}
       </div>
 
-      <div
-        ref={containerRef}
-        className="relative text-lg leading-relaxed text-zinc-300"
-      >
+      <div className="relative text-lg leading-relaxed text-zinc-300">
         {tokens.map((tok, i) => {
           if (!tok.isWord) return <span key={i}>{tok.text}</span>;
           const isSelected = selectedIdx === i;
@@ -180,7 +186,10 @@ function WordPopover({
   useEffect(() => {
     setEntry(findWordByEnglish(word) ?? null);
     setDraft("");
-    setTimeout(() => inputRef.current?.focus(), 50);
+    // requestAnimationFrame вместо setTimeout — фокус ставится после layout,
+    // и если компонент размонтируется до этого, rAF будет отменён в cleanup.
+    const raf = requestAnimationFrame(() => inputRef.current?.focus());
+    return () => cancelAnimationFrame(raf);
   }, [word]);
 
   if (entry === undefined) return null;

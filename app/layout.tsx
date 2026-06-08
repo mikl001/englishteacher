@@ -20,6 +20,7 @@ const DESCRIPTION =
   "Карточки с интервальным повторением, чтение с переводом, грамматика по темам и чат с AI-репетитором. Без аккаунта, всё в браузере.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://englishteacher-beta.vercel.app"),
   title: {
     default: TITLE,
     template: "%s · Английский",
@@ -67,7 +68,7 @@ export default function RootLayout({
     >
       <body className="font-sans min-h-screen flex flex-col">
         <Nav />
-        <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-10">
+        <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-6 py-10">
           {children}
         </main>
       </body>

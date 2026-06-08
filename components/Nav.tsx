@@ -40,7 +40,7 @@ export function Nav() {
             .
           </span>
         </Link>
-        <nav className="flex flex-1 items-center gap-1 overflow-x-auto">
+        <nav className="no-scrollbar flex flex-1 items-center gap-1 overflow-x-auto">
           {links.map((link) => {
             const active = isActive(link.href);
             return (

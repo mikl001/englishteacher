@@ -180,7 +180,9 @@ export function addWord(english: string, russian: string): Word[] {
     return updated;
   }
   const newWord: Word = {
-    id: `w${Date.now()}`,
+    // Date.now() + random-суффикс — чтобы не коллизировать при быстром добавлении
+    // нескольких слов подряд (например, при импорте циклом).
+    id: `w${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
     english: cleaned,
     russian: russian.trim(),
     status: "new",

@@ -9,8 +9,8 @@
 
 ## Демо
 
-🚀 **Live:** [TODO: добавь Vercel-ссылку после деплоя]
-📘 **Гайд / о проекте:** `/about` внутри приложения
+🚀 **Live:** https://englishteacher-beta.vercel.app/
+📘 **Гайд / о проекте:** https://englishteacher-beta.vercel.app/about
 
 ## Что внутри
 
@@ -29,12 +29,12 @@
 - **Next.js 16** — App Router, Turbopack, серверные и клиентские компоненты
 - **TypeScript** — строгие типы для всей доменной модели
 - **Tailwind v4** — настройка прямо в CSS через `@theme inline`, без `tailwind.config.*`
-- **next/font** — Inter (UI) + JetBrains Mono (английский), с кириллической подкою
+- **next/font** — Inter (UI) + JetBrains Mono (английский), с кириллической поддержкой
 - **localStorage** — версионирование контента (`DEFAULTS_VERSION`), прогресс не теряется при обновлении дефолтов
 - **Web Speech API** — озвучка без зависимостей и внешних сервисов
 - **OpenAI-compatible chat** — один универсальный клиент к любой LLM
 
-Никаких зависимостей за пределами `next`, `react`, `react-dom` и `tailwindcss`.
+В рантайме никаких зависимостей кроме `next`, `react`, `react-dom`. Tailwind v4 — buildtime через PostCSS. ESLint и `@types/*` — только в devDependencies.
 
 ## Локальный запуск
 

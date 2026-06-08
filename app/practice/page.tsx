@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import type { ChatMessage, ChatSettings } from "@/lib/types";
 import {
   clearChatHistory,
@@ -83,7 +82,7 @@ export default function PracticePage() {
   }
 
   return (
-    <div className="mx-auto flex h-[calc(100vh-9rem)] max-w-3xl flex-col gap-4">
+    <div className="mx-auto flex min-h-[480px] w-full max-w-3xl flex-1 flex-col gap-4">
       <div className="flex items-baseline justify-between gap-3">
         <div>
           <h1 className="text-3xl font-semibold tracking-tight text-zinc-100">
@@ -135,8 +134,8 @@ export default function PracticePage() {
 
       {ready && (
         <>
-          <Card className="flex flex-1 flex-col overflow-hidden p-0">
-            <div className="flex-1 space-y-4 overflow-y-auto p-5">
+          <Card className="flex min-h-0 flex-1 flex-col overflow-hidden p-0">
+            <div className="min-h-0 flex-1 space-y-4 overflow-y-auto p-5">
               {history.length === 0 && (
                 <div className="flex h-full items-center justify-center text-center text-sm text-zinc-500">
                   <div>
