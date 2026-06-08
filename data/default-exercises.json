@@ -153,5 +153,338 @@
 
   { "id": "e133","question": "She asked me where ___.", "options": ["I lived", "did I live", "I do live"], "answer": "I lived", "explanation": "В косвенной речи порядок слов прямой (подлежащее + глагол) и время сдвигается.", "topic": "Косвенная речь", "level": "B1" },
   { "id": "e134","question": "He said that he ___ tired.", "options": ["is", "was", "be"], "answer": "was", "explanation": "После said в прошедшем времени происходит back-shift: is → was.", "topic": "Косвенная речь", "level": "B1" },
-  { "id": "e135","question": "She told me she ___ the bus.", "options": ["missed", "had missed", "miss"], "answer": "had missed", "explanation": "В косвенной речи Past Simple → Past Perfect.", "topic": "Косвенная речь", "level": "B1" }
+  { "id": "e135","question": "She told me she ___ the bus.", "options": ["missed", "had missed", "miss"], "answer": "had missed", "explanation": "В косвенной речи Past Simple → Past Perfect.", "topic": "Косвенная речь", "level": "B1" },
+
+  { "id": "e136","question": "___ you tell me where the bank is?", "options": ["Can", "Are", "Do"], "answer": "Can", "explanation": "Вежливая просьба → Can you.", "topic": "Вежливые вопросы", "level": "A2" },
+  { "id": "e137","question": "Where ___ you born?", "options": ["are", "were", "do"], "answer": "were", "explanation": "Прошедшее время to be во множ. и you → were.", "topic": "Вежливые вопросы", "level": "A1" },
+  { "id": "e138","question": "What ___ you do for a living?", "options": ["are", "do", "did"], "answer": "do", "explanation": "Present Simple вопрос → do + V.", "topic": "Вежливые вопросы", "level": "A1" },
+  { "id": "e139","question": "How long ___ it take to get there?", "options": ["do", "does", "is"], "answer": "does", "explanation": "Подлежащее it → does в Present Simple.", "topic": "Вежливые вопросы", "level": "A2" },
+  { "id": "e140","question": "Why ___ you crying?", "options": ["do", "is", "are"], "answer": "are", "explanation": "Действие сейчас → Present Continuous: are crying.", "topic": "Вежливые вопросы", "level": "A2" },
+
+  { "id": "e141","question": "Could you ___ the door, please?", "options": ["close", "to close", "closing"], "answer": "close", "explanation": "После модального could → инфинитив без to.", "topic": "Просьбы", "level": "A2" },
+  { "id": "e142","question": "Would you mind ___ the window?", "options": ["open", "to open", "opening"], "answer": "opening", "explanation": "После would you mind → V-ing.", "topic": "Просьбы", "level": "B1" },
+  { "id": "e143","question": "I'd like ___ a coffee, please.", "options": ["have", "to have", "having"], "answer": "to have", "explanation": "После I'd like → инфинитив с to.", "topic": "Просьбы", "level": "A2" },
+  { "id": "e144","question": "Can I ___ you a question?", "options": ["ask", "to ask", "asking"], "answer": "ask", "explanation": "После can → инфинитив без to.", "topic": "Просьбы", "level": "A1" },
+  { "id": "e145","question": "Would you like ___ to dinner?", "options": ["come", "to come", "coming"], "answer": "to come", "explanation": "После would you like → инфинитив с to.", "topic": "Просьбы", "level": "A2" },
+
+  { "id": "e146","question": "He looks ___ his father.", "options": ["like", "as", "for"], "answer": "like", "explanation": "look like + сущ. → внешнее сходство.", "topic": "Like / As", "level": "A2" },
+  { "id": "e147","question": "She works ___ a teacher.", "options": ["like", "as", "for"], "answer": "as", "explanation": "as + профессия → роль/функция.", "topic": "Like / As", "level": "B1" },
+  { "id": "e148","question": "Do ___ I say, not as I do.", "options": ["like", "as", "such as"], "answer": "as", "explanation": "as + предложение → способ действия.", "topic": "Like / As", "level": "B1" },
+  { "id": "e149","question": "She sings ___ a professional.", "options": ["like", "as", "such as"], "answer": "like", "explanation": "like + сущ. → сравнение качества.", "topic": "Like / As", "level": "B1" },
+
+  { "id": "e150","question": "It was ___ a boring film!", "options": ["so", "such", "very"], "answer": "such", "explanation": "Перед существительным с прил. → such (a).", "topic": "So / Such", "level": "B1" },
+  { "id": "e151","question": "She is ___ kind.", "options": ["so", "such", "much"], "answer": "so", "explanation": "Перед прилагательным → so.", "topic": "So / Such", "level": "B1" },
+  { "id": "e152","question": "We had ___ wonderful time.", "options": ["so", "such a", "such"], "answer": "such a", "explanation": "Перед исчисляемым ед.ч. + прил. → such a.", "topic": "So / Such", "level": "B1" },
+  { "id": "e153","question": "He runs ___ fast that no one can catch him.", "options": ["so", "such", "very"], "answer": "so", "explanation": "so + наречие → so fast.", "topic": "So / Such", "level": "B1" },
+
+  { "id": "e154","question": "I have ___ patience for this.", "options": ["no", "not", "any"], "answer": "no", "explanation": "Утв. предложение + нулевое количество → no + сущ.", "topic": "No / Not / None", "level": "A2" },
+  { "id": "e155","question": "There is ___ time left.", "options": ["no", "any", "not"], "answer": "no", "explanation": "There is + no + сущ. → отсутствие.", "topic": "No / Not / None", "level": "A2" },
+  { "id": "e156","question": "I have ___ idea what you mean.", "options": ["no", "not", "any"], "answer": "no", "explanation": "have no idea — устойчивое выражение.", "topic": "No / Not / None", "level": "A2" },
+  { "id": "e157","question": "How many books do you have? ___.", "options": ["No", "None", "Not"], "answer": "None", "explanation": "Краткий ответ на «сколько» → None.", "topic": "No / Not / None", "level": "B1" },
+
+  { "id": "e158","question": "I'm ___ tired ___ go out.", "options": ["too / to", "so / that", "very / to"], "answer": "too / to", "explanation": "too + прил. + to + V → слишком, чтобы.", "topic": "Too / Enough", "level": "B1" },
+  { "id": "e159","question": "She isn't tall ___ to reach the shelf.", "options": ["too", "enough", "so"], "answer": "enough", "explanation": "прил. + enough + to + V → достаточно, чтобы.", "topic": "Too / Enough", "level": "B1" },
+  { "id": "e160","question": "I don't have ___ money to buy it.", "options": ["too", "enough", "any"], "answer": "enough", "explanation": "enough + сущ. → достаточно для.", "topic": "Too / Enough", "level": "B1" },
+  { "id": "e161","question": "It's ___ cold to swim today.", "options": ["too", "enough", "so"], "answer": "too", "explanation": "too + прил. → слишком (отрицательный смысл).", "topic": "Too / Enough", "level": "B1" },
+
+  { "id": "e162","question": "I wish I ___ taller.", "options": ["am", "was", "were"], "answer": "were", "explanation": "wish + were для нереального желания в наст.", "topic": "Wish / If only", "level": "B1" },
+  { "id": "e163","question": "I wish you ___ here yesterday.", "options": ["were", "had been", "are"], "answer": "had been", "explanation": "wish + past perfect → сожаление о прошлом.", "topic": "Wish / If only", "level": "B1" },
+  { "id": "e164","question": "If only it ___ raining!", "options": ["stops", "would stop", "stopped"], "answer": "would stop", "explanation": "If only + would + V → раздражение/желание.", "topic": "Wish / If only", "level": "B1" },
+  { "id": "e165","question": "I wish I ___ that yesterday.", "options": ["didn't say", "hadn't said", "wouldn't say"], "answer": "hadn't said", "explanation": "wish + past perfect → сожаление о прошлом.", "topic": "Wish / If only", "level": "B1" },
+
+  { "id": "e166","question": "I'll have my hair ___ tomorrow.", "options": ["cut", "to cut", "cutting"], "answer": "cut", "explanation": "have something + V3 → каузатив (мне сделают).", "topic": "Have something done", "level": "B1" },
+  { "id": "e167","question": "She had her car ___ yesterday.", "options": ["repair", "repaired", "to repair"], "answer": "repaired", "explanation": "had + сущ. + V3 → ей починили.", "topic": "Have something done", "level": "B1" },
+  { "id": "e168","question": "I need to get my photo ___.", "options": ["take", "taken", "taking"], "answer": "taken", "explanation": "get + сущ. + V3 → мне сделают.", "topic": "Have something done", "level": "B1" },
+
+  { "id": "e169","question": "I'm looking ___ my keys.", "options": ["for", "after", "up"], "answer": "for", "explanation": "look for → искать.", "topic": "Phrasal verbs", "level": "A2" },
+  { "id": "e170","question": "She takes ___ her mother.", "options": ["after", "off", "up"], "answer": "after", "explanation": "take after → быть похожим.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e171","question": "Please turn ___ the lights.", "options": ["off", "on", "up"], "answer": "off", "explanation": "turn off → выключать.", "topic": "Phrasal verbs", "level": "A1" },
+  { "id": "e172","question": "I came ___ an old friend in town.", "options": ["across", "by", "off"], "answer": "across", "explanation": "come across → случайно встретить.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e173","question": "He gave ___ smoking last year.", "options": ["up", "in", "on"], "answer": "up", "explanation": "give up → отказаться, бросить.", "topic": "Phrasal verbs", "level": "A2" },
+  { "id": "e174","question": "I'll pick you ___ at eight.", "options": ["up", "on", "in"], "answer": "up", "explanation": "pick up → забрать.", "topic": "Phrasal verbs", "level": "A2" },
+  { "id": "e175","question": "Look ___ the kids while I'm gone.", "options": ["for", "after", "up"], "answer": "after", "explanation": "look after → присматривать.", "topic": "Phrasal verbs", "level": "A2" },
+  { "id": "e176","question": "We need to figure ___ a solution.", "options": ["out", "off", "in"], "answer": "out", "explanation": "figure out → понять / найти решение.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e177","question": "Don't put ___ what you can do today.", "options": ["off", "up", "down"], "answer": "off", "explanation": "put off → откладывать.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e178","question": "Let me think it ___.", "options": ["over", "out", "off"], "answer": "over", "explanation": "think over → обдумать.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e179","question": "She broke ___ in tears.", "options": ["out", "down", "off"], "answer": "down", "explanation": "break down → расплакаться / сломаться.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e180","question": "The meeting was called ___.", "options": ["off", "out", "up"], "answer": "off", "explanation": "call off → отменить.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e181","question": "I get ___ at 7 every day.", "options": ["up", "off", "on"], "answer": "up", "explanation": "get up → вставать утром.", "topic": "Phrasal verbs", "level": "A1" },
+  { "id": "e182","question": "We ran ___ time at the meeting.", "options": ["out of", "off", "up"], "answer": "out of", "explanation": "run out of → исчерпать.", "topic": "Phrasal verbs", "level": "B1" },
+  { "id": "e183","question": "Hold ___ a moment, please.", "options": ["on", "off", "up"], "answer": "on", "explanation": "hold on → подожди.", "topic": "Phrasal verbs", "level": "A2" },
+
+  { "id": "e184","question": "I'm ___ in learning Spanish.", "options": ["interested", "interesting", "interest"], "answer": "interested", "explanation": "Чувство человека → -ed (interested).", "topic": "-ed / -ing adjectives", "level": "A2" },
+  { "id": "e185","question": "The film was very ___.", "options": ["bored", "boring", "bore"], "answer": "boring", "explanation": "Качество вещи → -ing (boring).", "topic": "-ed / -ing adjectives", "level": "A2" },
+  { "id": "e186","question": "I'm ___ after such a long day.", "options": ["tired", "tiring", "tire"], "answer": "tired", "explanation": "Состояние человека → -ed.", "topic": "-ed / -ing adjectives", "level": "A2" },
+  { "id": "e187","question": "The trip was really ___.", "options": ["excited", "exciting", "excite"], "answer": "exciting", "explanation": "Качество события → -ing.", "topic": "-ed / -ing adjectives", "level": "A2" },
+  { "id": "e188","question": "I was ___ to hear the news.", "options": ["surprised", "surprising", "surprise"], "answer": "surprised", "explanation": "Реакция человека → -ed.", "topic": "-ed / -ing adjectives", "level": "A2" },
+
+  { "id": "e189","question": "Either Anna or Tom ___ coming.", "options": ["is", "are", "be"], "answer": "is", "explanation": "Either … or — согласуется с ближайшим (Tom — ед.ч.).", "topic": "Either / Neither", "level": "B1" },
+  { "id": "e190","question": "Neither John nor his brothers ___ at home.", "options": ["is", "are", "was"], "answer": "are", "explanation": "Neither … nor + ближайшее подлежащее (brothers — мн.ч.).", "topic": "Either / Neither", "level": "B1" },
+  { "id": "e191","question": "I don't speak French. — ___.", "options": ["Me too", "Neither do I", "So do I"], "answer": "Neither do I", "explanation": "Согласие с отрицанием → Neither do I.", "topic": "Either / Neither", "level": "B1" },
+  { "id": "e192","question": "I love coffee. — ___.", "options": ["Neither do I", "So do I", "Me neither"], "answer": "So do I", "explanation": "Согласие с утверждением → So do I.", "topic": "Either / Neither", "level": "B1" },
+
+  { "id": "e193","question": "All of us ___ tired after the hike.", "options": ["was", "were", "is"], "answer": "were", "explanation": "all of us → were в Past Simple.", "topic": "Both / All / None", "level": "B1" },
+  { "id": "e194","question": "Both ___ ready to go.", "options": ["is", "are", "be"], "answer": "are", "explanation": "Both → согласуется как мн.ч.", "topic": "Both / All / None", "level": "B1" },
+  { "id": "e195","question": "None of the students ___ the answer.", "options": ["know", "knows", "is knowing"], "answer": "knows", "explanation": "None of + сущ. → формально ед.ч. (none + singular verb).", "topic": "Both / All / None", "level": "B1" },
+  { "id": "e196","question": "All the children ___ playing outside.", "options": ["is", "are", "was"], "answer": "are", "explanation": "all + сущ. мн.ч. + present continuous → are.", "topic": "Both / All / None", "level": "A2" },
+
+  { "id": "e197","question": "Have you ever been to Italy? — Yes, ___.", "options": ["I had", "I have", "I am"], "answer": "I have", "explanation": "Краткий ответ на Present Perfect → Yes, I have.", "topic": "Краткие ответы", "level": "B1" },
+  { "id": "e198","question": "Do you like jazz? — No, ___.", "options": ["I don't", "I'm not", "I haven't"], "answer": "I don't", "explanation": "Краткий ответ на Present Simple → don't.", "topic": "Краткие ответы", "level": "A1" },
+  { "id": "e199","question": "Can you swim? — Yes, ___.", "options": ["I can", "I do", "I'm"], "answer": "I can", "explanation": "Краткий ответ на модальный → I can.", "topic": "Краткие ответы", "level": "A1" },
+  { "id": "e200","question": "Is it raining? — No, ___.", "options": ["it doesn't", "it isn't", "it hasn't"], "answer": "it isn't", "explanation": "Present Continuous → is not (isn't).", "topic": "Краткие ответы", "level": "A2" },
+
+  { "id": "e201","question": "By 6 pm, I ___ already ___ home.", "options": ["had / arrived", "have / arrived", "was / arriving"], "answer": "had / arrived", "explanation": "Действие до конкретного момента в прошлом → Past Perfect.", "topic": "Past Perfect", "level": "B1" },
+  { "id": "e202","question": "When I got there, the train ___ already ___.", "options": ["had / left", "has / left", "was / leaving"], "answer": "had / left", "explanation": "Одно прошлое до другого → Past Perfect.", "topic": "Past Perfect", "level": "B1" },
+  { "id": "e203","question": "She ___ never ___ skiing before.", "options": ["had / been", "have / been", "was / being"], "answer": "had / been", "explanation": "Прошлый опыт до прошлого момента → Past Perfect.", "topic": "Past Perfect", "level": "B1" },
+  { "id": "e204","question": "After he ___ his work, he relaxed.", "options": ["had finished", "has finished", "finished"], "answer": "had finished", "explanation": "Раньшее из двух прошлых действий → Past Perfect.", "topic": "Past Perfect", "level": "B1" },
+  { "id": "e205","question": "By 2020 we ___ already ___ in three different cities.", "options": ["had / lived", "have / lived", "lived"], "answer": "had / lived", "explanation": "By + время в прошлом → Past Perfect.", "topic": "Past Perfect", "level": "B1" },
+
+  { "id": "e206","question": "I have known him ___ ten years.", "options": ["since", "for", "from"], "answer": "for", "explanation": "for + промежуток времени.", "topic": "For / Since", "level": "B1" },
+  { "id": "e207","question": "She has lived here ___ 2015.", "options": ["since", "for", "from"], "answer": "since", "explanation": "since + точка во времени.", "topic": "For / Since", "level": "B1" },
+  { "id": "e208","question": "We've been waiting ___ three hours.", "options": ["since", "for", "from"], "answer": "for", "explanation": "for + период.", "topic": "For / Since", "level": "B1" },
+  { "id": "e209","question": "He has been working here ___ January.", "options": ["since", "for", "from"], "answer": "since", "explanation": "since + конкретный момент.", "topic": "For / Since", "level": "B1" },
+
+  { "id": "e210","question": "She likes ___ early.", "options": ["get up", "to get up", "getting up"], "answer": "getting up", "explanation": "like + V-ing → удовольствие от процесса.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e211","question": "I want ___ a new bike.", "options": ["buy", "to buy", "buying"], "answer": "to buy", "explanation": "want + to + V → желание.", "topic": "Gerund / Infinitive", "level": "A2" },
+  { "id": "e212","question": "He suggested ___ a film.", "options": ["watch", "to watch", "watching"], "answer": "watching", "explanation": "suggest + V-ing.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e213","question": "I decided ___ the offer.", "options": ["accept", "to accept", "accepting"], "answer": "to accept", "explanation": "decide + to + V.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e214","question": "She avoided ___ him.", "options": ["meet", "to meet", "meeting"], "answer": "meeting", "explanation": "avoid + V-ing.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e215","question": "I'm thinking of ___ a new job.", "options": ["find", "to find", "finding"], "answer": "finding", "explanation": "После предлога of → V-ing.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e216","question": "He's interested in ___ Spanish.", "options": ["learn", "to learn", "learning"], "answer": "learning", "explanation": "interested in + V-ing.", "topic": "Gerund / Infinitive", "level": "B1" },
+  { "id": "e217","question": "She's good at ___.", "options": ["cook", "to cook", "cooking"], "answer": "cooking", "explanation": "good at + V-ing.", "topic": "Gerund / Infinitive", "level": "A2" },
+
+  { "id": "e218","question": "This is the man ___ helped me.", "options": ["who", "which", "where"], "answer": "who", "explanation": "Относ. местоимение для человека → who.", "topic": "Relative clauses", "level": "B1" },
+  { "id": "e219","question": "The book ___ I'm reading is great.", "options": ["who", "which", "where"], "answer": "which", "explanation": "Относ. местоимение для вещи → which/that.", "topic": "Relative clauses", "level": "B1" },
+  { "id": "e220","question": "That's the cafe ___ we met.", "options": ["who", "which", "where"], "answer": "where", "explanation": "Относ. наречие места → where.", "topic": "Relative clauses", "level": "B1" },
+  { "id": "e221","question": "I remember the day ___ we met.", "options": ["who", "which", "when"], "answer": "when", "explanation": "Относ. наречие времени → when.", "topic": "Relative clauses", "level": "B1" },
+  { "id": "e222","question": "Do you know the reason ___ she left?", "options": ["why", "where", "which"], "answer": "why", "explanation": "Относ. наречие причины → why.", "topic": "Relative clauses", "level": "B1" },
+
+  { "id": "e223","question": "I ___ go to bed when the phone rang.", "options": ["was about to", "am about to", "have been about to"], "answer": "was about to", "explanation": "be about to + V → собираться (в прошлом).", "topic": "Be about to", "level": "B1" },
+  { "id": "e224","question": "I'm ___ leave now.", "options": ["about to", "going to be", "was about to"], "answer": "about to", "explanation": "be about to → действие в самой ближайшей перспективе.", "topic": "Be about to", "level": "B1" },
+
+  { "id": "e225","question": "If I ___ time, I would help you.", "options": ["have", "had", "would have"], "answer": "had", "explanation": "2nd Conditional: If + Past Simple, would + V.", "topic": "Условные расш.", "level": "B1" },
+  { "id": "e226","question": "If he ___ harder, he would pass.", "options": ["studies", "studied", "would study"], "answer": "studied", "explanation": "2nd Conditional: If + Past Simple.", "topic": "Условные расш.", "level": "B1" },
+  { "id": "e227","question": "If she ___ left earlier, she would have caught the train.", "options": ["had", "has", "would have"], "answer": "had", "explanation": "3rd Conditional: If + Past Perfect, would have + V3.", "topic": "Условные расш.", "level": "B1" },
+  { "id": "e228","question": "Unless you hurry, you ___ late.", "options": ["are", "will be", "would be"], "answer": "will be", "explanation": "Unless = if not, 1st Conditional → will + V.", "topic": "Условные расш.", "level": "B1" },
+
+  { "id": "e229","question": "He spoke ___ that everyone understood.", "options": ["clear", "clearly", "clarity"], "answer": "clearly", "explanation": "Наречие на -ly от прил. clear.", "topic": "Наречия", "level": "A2" },
+  { "id": "e230","question": "She drives ___.", "options": ["careful", "carefully", "care"], "answer": "carefully", "explanation": "Наречие → carefully.", "topic": "Наречия", "level": "A2" },
+  { "id": "e231","question": "I can ___ remember her name.", "options": ["hard", "hardly", "hardness"], "answer": "hardly", "explanation": "hardly → едва.", "topic": "Наречия", "level": "B1" },
+  { "id": "e232","question": "He's ___ tired today.", "options": ["real", "really", "reality"], "answer": "really", "explanation": "Наречие меры → really.", "topic": "Наречия", "level": "A2" },
+
+  { "id": "e233","question": "The film was ___ interesting than the book.", "options": ["less", "few", "little"], "answer": "less", "explanation": "less + прил. → меньше по качеству.", "topic": "Степени расш.", "level": "B1" },
+  { "id": "e234","question": "She runs ___ than her brother.", "options": ["faster", "more fast", "as fast"], "answer": "faster", "explanation": "Сравнительная степень → faster.", "topic": "Степени расш.", "level": "A2" },
+  { "id": "e235","question": "It's getting ___ in here.", "options": ["hotter and hotter", "more hot", "hottest"], "answer": "hotter and hotter", "explanation": "Удвоение → нарастание.", "topic": "Степени расш.", "level": "B1" },
+  { "id": "e236","question": "The ___ I learn, the more I want to know.", "options": ["more", "much", "many"], "answer": "more", "explanation": "the more ... the more → пропорция.", "topic": "Степени расш.", "level": "B1" },
+
+  { "id": "e237","question": "She must ___ tired after the long trip.", "options": ["be", "to be", "being"], "answer": "be", "explanation": "После модального → инфинитив без to.", "topic": "Модальные расш.", "level": "B1" },
+  { "id": "e238","question": "He might ___ at home.", "options": ["be", "to be", "being"], "answer": "be", "explanation": "might + V (без to).", "topic": "Модальные расш.", "level": "B1" },
+  { "id": "e239","question": "You ___ have told me earlier!", "options": ["should", "must", "can"], "answer": "should", "explanation": "should have + V3 → упрёк, лучше бы сделал.", "topic": "Модальные расш.", "level": "B1" },
+  { "id": "e240","question": "She ___ have left already.", "options": ["may", "might", "must"], "answer": "must", "explanation": "must have + V3 → уверенный вывод.", "topic": "Модальные расш.", "level": "B1" },
+  { "id": "e241","question": "He ___ have done it; he was home all day.", "options": ["can't", "shouldn't", "mustn't"], "answer": "can't", "explanation": "can't have + V3 → не мог сделать.", "topic": "Модальные расш.", "level": "B1" },
+
+  { "id": "e242","question": "There ___ a lot of traffic this morning.", "options": ["was", "were", "is"], "answer": "was", "explanation": "traffic — неисчисляемое → was.", "topic": "Согласование", "level": "B1" },
+  { "id": "e243","question": "The news ___ very good today.", "options": ["is", "are", "were"], "answer": "is", "explanation": "news всегда в ед.ч.", "topic": "Согласование", "level": "B1" },
+  { "id": "e244","question": "My family ___ here for dinner.", "options": ["is", "are", "be"], "answer": "is", "explanation": "family — собирательное, обычно ед.ч.", "topic": "Согласование", "level": "B1" },
+  { "id": "e245","question": "Two hours ___ enough time.", "options": ["is", "are", "be"], "answer": "is", "explanation": "Период времени → ед.ч.", "topic": "Согласование", "level": "B1" },
+
+  { "id": "e246","question": "She speaks English well, ___?", "options": ["doesn't she", "isn't she", "won't she"], "answer": "doesn't she", "explanation": "Present Simple утверждение → doesn't she.", "topic": "Question tags расш.", "level": "B1" },
+  { "id": "e247","question": "You've finished, ___?", "options": ["aren't you", "haven't you", "didn't you"], "answer": "haven't you", "explanation": "Present Perfect утверждение → haven't you.", "topic": "Question tags расш.", "level": "B1" },
+  { "id": "e248","question": "Let's go, ___?", "options": ["shall we", "will we", "do we"], "answer": "shall we", "explanation": "После Let's → shall we.", "topic": "Question tags расш.", "level": "B1" },
+  { "id": "e249","question": "Don't forget, ___?", "options": ["do you", "will you", "won't you"], "answer": "will you", "explanation": "После повелит. накл. → will you.", "topic": "Question tags расш.", "level": "B1" },
+
+  { "id": "e250","question": "She doesn't like coffee, and ___ does he.", "options": ["so", "neither", "either"], "answer": "neither", "explanation": "Согласие с отрицанием → neither.", "topic": "So / Neither", "level": "B1" },
+  { "id": "e251","question": "I love jazz. — ___ do I.", "options": ["So", "Neither", "Too"], "answer": "So", "explanation": "Согласие с утверждением → So do I.", "topic": "So / Neither", "level": "B1" },
+  { "id": "e252","question": "She isn't ready and ___ am I.", "options": ["so", "neither", "either"], "answer": "neither", "explanation": "neither + вспом. + подлеж. → согласие с отрицанием.", "topic": "So / Neither", "level": "B1" },
+
+  { "id": "e253","question": "He is ___ a famous actor.", "options": ["quite", "very", "much"], "answer": "quite", "explanation": "quite + a + сущ. в утв. → довольно.", "topic": "Quite / Rather", "level": "B1" },
+  { "id": "e254","question": "It's ___ cold today.", "options": ["quite", "very", "much"], "answer": "quite", "explanation": "quite + прил. → довольно.", "topic": "Quite / Rather", "level": "B1" },
+  { "id": "e255","question": "I'd ___ stay at home tonight.", "options": ["rather", "quite", "much"], "answer": "rather", "explanation": "would rather + V → предпочитаю.", "topic": "Quite / Rather", "level": "B1" },
+
+  { "id": "e256","question": "I ___ to the gym three times a week.", "options": ["go", "am going", "have gone"], "answer": "go", "explanation": "Регулярное действие → Present Simple.", "topic": "Времена обзор", "level": "A1" },
+  { "id": "e257","question": "Right now she ___ a book.", "options": ["reads", "is reading", "has read"], "answer": "is reading", "explanation": "Сейчас → Present Continuous.", "topic": "Времена обзор", "level": "A2" },
+  { "id": "e258","question": "I ___ pasta yesterday.", "options": ["eat", "ate", "have eaten"], "answer": "ate", "explanation": "yesterday → Past Simple.", "topic": "Времена обзор", "level": "A1" },
+  { "id": "e259","question": "I ___ this film three times.", "options": ["saw", "have seen", "see"], "answer": "have seen", "explanation": "Опыт жизни (без указания времени) → Present Perfect.", "topic": "Времена обзор", "level": "B1" },
+  { "id": "e260","question": "Tomorrow he ___ to a party.", "options": ["goes", "is going", "will go"], "answer": "is going", "explanation": "План на завтра → Present Continuous как будущее.", "topic": "Времена обзор", "level": "B1" },
+  { "id": "e261","question": "I ___ here since 2010.", "options": ["live", "am living", "have lived"], "answer": "have lived", "explanation": "since → Present Perfect.", "topic": "Времена обзор", "level": "B1" },
+  { "id": "e262","question": "He ___ when I called.", "options": ["sleeps", "was sleeping", "has slept"], "answer": "was sleeping", "explanation": "Длительное действие в прошлом → Past Continuous.", "topic": "Времена обзор", "level": "B1" },
+  { "id": "e263","question": "She ___ already ___ when I arrived.", "options": ["has / left", "had / left", "is / leaving"], "answer": "had / left", "explanation": "Раньшее прошлое → Past Perfect.", "topic": "Времена обзор", "level": "B1" },
+
+  { "id": "e264","question": "I usually drink coffee ___ breakfast.", "options": ["at", "for", "during"], "answer": "for", "explanation": "for + приём пищи → для (на).", "topic": "Предлоги фраз.", "level": "B1" },
+  { "id": "e265","question": "She's good ___ English.", "options": ["in", "at", "on"], "answer": "at", "explanation": "good at + сущ./V-ing.", "topic": "Предлоги фраз.", "level": "A2" },
+  { "id": "e266","question": "Don't worry ___ me.", "options": ["about", "for", "of"], "answer": "about", "explanation": "worry about → беспокоиться о.", "topic": "Предлоги фраз.", "level": "A2" },
+  { "id": "e267","question": "I'm afraid ___ spiders.", "options": ["from", "of", "for"], "answer": "of", "explanation": "afraid of → боюсь.", "topic": "Предлоги фраз.", "level": "A1" },
+  { "id": "e268","question": "She's interested ___ history.", "options": ["in", "on", "for"], "answer": "in", "explanation": "interested in → интересоваться.", "topic": "Предлоги фраз.", "level": "A2" },
+  { "id": "e269","question": "Thank you ___ your help.", "options": ["for", "to", "of"], "answer": "for", "explanation": "thanks for → спасибо за.", "topic": "Предлоги фраз.", "level": "A1" },
+  { "id": "e270","question": "I'm tired ___ waiting.", "options": ["from", "of", "for"], "answer": "of", "explanation": "tired of + V-ing → надоело.", "topic": "Предлоги фраз.", "level": "B1" },
+  { "id": "e271","question": "He depends ___ his parents.", "options": ["of", "on", "for"], "answer": "on", "explanation": "depend on → зависеть от.", "topic": "Предлоги фраз.", "level": "B1" },
+  { "id": "e272","question": "We arrived ___ home late.", "options": ["at", "in", "to"], "answer": "at", "explanation": "arrive at + место (но in + страна/город).", "topic": "Предлоги фраз.", "level": "B1" },
+  { "id": "e273","question": "She's married ___ a doctor.", "options": ["to", "with", "for"], "answer": "to", "explanation": "married to → замужем за.", "topic": "Предлоги фраз.", "level": "B1" },
+
+  { "id": "e274","question": "She runs ___ than me.", "options": ["fast", "faster", "more fast"], "answer": "faster", "explanation": "Сравнительная степень короткого наречия.", "topic": "Сравнение наречий", "level": "A2" },
+  { "id": "e275","question": "He works ___ than his brother.", "options": ["harder", "more hard", "hardest"], "answer": "harder", "explanation": "hard → harder (короткое).", "topic": "Сравнение наречий", "level": "A2" },
+  { "id": "e276","question": "She speaks ___ than I do.", "options": ["clearly", "more clearly", "clearliest"], "answer": "more clearly", "explanation": "Длинное наречие → more + clearly.", "topic": "Сравнение наречий", "level": "B1" },
+
+  { "id": "e277","question": "Although it was cold, we ___ went swimming.", "options": ["but", "still", "however"], "answer": "still", "explanation": "Although + still — стилистич. усиление.", "topic": "Linking words", "level": "B1" },
+  { "id": "e278","question": "It rained heavily; ___ we stayed at home.", "options": ["because", "therefore", "although"], "answer": "therefore", "explanation": "therefore → поэтому.", "topic": "Linking words", "level": "B1" },
+  { "id": "e279","question": "He's clever; ___, he's lazy.", "options": ["however", "because", "so"], "answer": "however", "explanation": "however → однако.", "topic": "Linking words", "level": "B1" },
+  { "id": "e280","question": "I went there ___ to see the show.", "options": ["in order", "so that", "because"], "answer": "in order", "explanation": "in order to + V → чтобы.", "topic": "Linking words", "level": "B1" },
+  { "id": "e281","question": "I called him ___ tell him the news.", "options": ["for", "to", "so"], "answer": "to", "explanation": "Цель → to + V.", "topic": "Linking words", "level": "A2" },
+
+  { "id": "e282","question": "It looks ___ rain today.", "options": ["like", "as", "for"], "answer": "like", "explanation": "look like + сущ. → выглядит как.", "topic": "Глагол + предлог", "level": "B1" },
+  { "id": "e283","question": "She agrees ___ me.", "options": ["with", "to", "on"], "answer": "with", "explanation": "agree with + человек.", "topic": "Глагол + предлог", "level": "B1" },
+  { "id": "e284","question": "I apologize ___ being late.", "options": ["for", "to", "about"], "answer": "for", "explanation": "apologize for + причина.", "topic": "Глагол + предлог", "level": "B1" },
+  { "id": "e285","question": "He insisted ___ paying for dinner.", "options": ["on", "for", "in"], "answer": "on", "explanation": "insist on + V-ing.", "topic": "Глагол + предлог", "level": "B1" },
+  { "id": "e286","question": "She suffers ___ headaches.", "options": ["of", "from", "by"], "answer": "from", "explanation": "suffer from → страдать от.", "topic": "Глагол + предлог", "level": "B1" },
+
+  { "id": "e287","question": "I'm used ___ getting up early.", "options": ["to", "for", "in"], "answer": "to", "explanation": "be used to + V-ing → привычен.", "topic": "Be used to", "level": "B1" },
+  { "id": "e288","question": "She got used ___ the cold weather.", "options": ["to", "with", "of"], "answer": "to", "explanation": "get used to + V-ing/сущ.", "topic": "Be used to", "level": "B1" },
+  { "id": "e289","question": "He's not used to ___ alone.", "options": ["live", "to live", "living"], "answer": "living", "explanation": "be used to + V-ing.", "topic": "Be used to", "level": "B1" },
+
+  { "id": "e290","question": "I had to wait ___ an hour.", "options": ["for", "since", "during"], "answer": "for", "explanation": "for + промежуток времени.", "topic": "For / During / While", "level": "B1" },
+  { "id": "e291","question": "Don't talk ___ the film.", "options": ["for", "during", "while"], "answer": "during", "explanation": "during + сущ. → во время.", "topic": "For / During / While", "level": "B1" },
+  { "id": "e292","question": "I read ___ I was waiting.", "options": ["for", "during", "while"], "answer": "while", "explanation": "while + клауза → пока.", "topic": "For / During / While", "level": "B1" },
+
+  { "id": "e293","question": "She earns less ___ her sister.", "options": ["than", "as", "that"], "answer": "than", "explanation": "less ... than → меньше чем.", "topic": "Сравнения как/чем", "level": "B1" },
+  { "id": "e294","question": "He's not ___ tall ___ his father.", "options": ["so / as", "as / as", "as / so"], "answer": "as / as", "explanation": "(not) as ... as → не такой как.", "topic": "Сравнения как/чем", "level": "B1" },
+  { "id": "e295","question": "This is twice ___ expensive ___ that one.", "options": ["so / as", "as / as", "more / than"], "answer": "as / as", "explanation": "twice as ... as → вдвое.", "topic": "Сравнения как/чем", "level": "B1" },
+
+  { "id": "e296","question": "Let me ___ if you need help.", "options": ["know", "to know", "knowing"], "answer": "know", "explanation": "Let + сущ./мест. + V (без to).", "topic": "Let / Make", "level": "B1" },
+  { "id": "e297","question": "She made me ___ all afternoon.", "options": ["work", "to work", "working"], "answer": "work", "explanation": "make + сущ./мест. + V (без to).", "topic": "Let / Make", "level": "B1" },
+  { "id": "e298","question": "I was made ___ a public apology.", "options": ["make", "to make", "making"], "answer": "to make", "explanation": "В пассиве make используется с to: be made to + V.", "topic": "Let / Make", "level": "B1" },
+
+  { "id": "e299","question": "He's leaving ___ Monday.", "options": ["at", "on", "in"], "answer": "on", "explanation": "on + день недели.", "topic": "Предлоги обзор", "level": "A1" },
+  { "id": "e300","question": "We're meeting ___ the morning.", "options": ["at", "on", "in"], "answer": "in", "explanation": "in + the morning/afternoon/evening.", "topic": "Предлоги обзор", "level": "A1" },
+  { "id": "e301","question": "She's looking ___ the window.", "options": ["at", "on", "in"], "answer": "at", "explanation": "look at → смотреть на.", "topic": "Предлоги обзор", "level": "A1" },
+  { "id": "e302","question": "The class starts ___ 9 a.m.", "options": ["at", "on", "in"], "answer": "at", "explanation": "at + точное время.", "topic": "Предлоги обзор", "level": "A1" },
+  { "id": "e303","question": "She works ___ a hospital.", "options": ["at", "on", "in"], "answer": "in", "explanation": "in + здание/учреждение (часто).", "topic": "Предлоги обзор", "level": "A2" },
+
+  { "id": "e304","question": "We have ___ much to do today.", "options": ["very", "so", "such"], "answer": "so", "explanation": "so + much/many.", "topic": "Modifiers", "level": "B1" },
+  { "id": "e305","question": "It's ___ a great day.", "options": ["so", "such", "very"], "answer": "such", "explanation": "such + a + прил. + сущ.", "topic": "Modifiers", "level": "B1" },
+  { "id": "e306","question": "She's ___ tired.", "options": ["very", "such", "so"], "answer": "very", "explanation": "very + прил. (без идеи следствия).", "topic": "Modifiers", "level": "A1" },
+
+  { "id": "e307","question": "I'd like ___ glass of water.", "options": ["a", "an", "the"], "answer": "a", "explanation": "glass — согл. звук → a.", "topic": "Артикли расш.", "level": "A1" },
+  { "id": "e308","question": "She wants to be ___ engineer.", "options": ["a", "an", "the"], "answer": "an", "explanation": "engineer — гласный звук → an.", "topic": "Артикли расш.", "level": "A1" },
+  { "id": "e309","question": "Pass me ___ salt, please.", "options": ["a", "an", "the"], "answer": "the", "explanation": "Определённый предмет на столе → the.", "topic": "Артикли расш.", "level": "A2" },
+  { "id": "e310","question": "She plays ___ tennis on weekends.", "options": ["a", "—", "the"], "answer": "—", "explanation": "Перед видами спорта артикль не ставится.", "topic": "Артикли расш.", "level": "A2" },
+  { "id": "e311","question": "We had dinner at ___ Hilton hotel.", "options": ["a", "the", "—"], "answer": "the", "explanation": "Перед названиями гостиниц с определением → the.", "topic": "Артикли расш.", "level": "B1" },
+  { "id": "e312","question": "He's from ___ USA.", "options": ["a", "the", "—"], "answer": "the", "explanation": "the + USA, UK, Netherlands.", "topic": "Артикли расш.", "level": "A2" },
+  { "id": "e313","question": "I'm going to ___ bed.", "options": ["a", "the", "—"], "answer": "—", "explanation": "go to bed — устойчивое, без артикля.", "topic": "Артикли расш.", "level": "A2" },
+  { "id": "e314","question": "She goes to ___ church every Sunday.", "options": ["a", "the", "—"], "answer": "—", "explanation": "Учреждения по назначению без артикля (church, school, prison).", "topic": "Артикли расш.", "level": "B1" },
+
+  { "id": "e315","question": "He's ___ best student in the class.", "options": ["a", "an", "the"], "answer": "the", "explanation": "Превосходная степень → the best.", "topic": "Артикли расш.", "level": "A2" },
+  { "id": "e316","question": "I've never seen ___ rainbow this bright.", "options": ["a", "an", "the"], "answer": "a", "explanation": "Неопределённое существ. + согл. звук → a.", "topic": "Артикли расш.", "level": "A2" },
+
+  { "id": "e317","question": "How much time ___ we have?", "options": ["have", "do", "are"], "answer": "do", "explanation": "Вопрос в Present Simple → do.", "topic": "Вопросительные расш.", "level": "A2" },
+  { "id": "e318","question": "What ___ for dinner?", "options": ["do you cook", "are you cooking", "have you cooked"], "answer": "are you cooking", "explanation": "Сейчас → Present Continuous.", "topic": "Вопросительные расш.", "level": "A2" },
+  { "id": "e319","question": "Whose book is this? It's ___.", "options": ["my", "mine", "me"], "answer": "mine", "explanation": "Притяж. местоимение в самостоятельной форме → mine.", "topic": "Притяжательные", "level": "A2" },
+  { "id": "e320","question": "This pen is ___, not yours.", "options": ["my", "mine", "me"], "answer": "mine", "explanation": "Притяж. местоимение → mine.", "topic": "Притяжательные", "level": "A2" },
+
+  { "id": "e321","question": "Anna and ___ are going to the cinema.", "options": ["me", "I", "myself"], "answer": "I", "explanation": "Anna and I — подлежащее, нужно I.", "topic": "Личные местоимения", "level": "A2" },
+  { "id": "e322","question": "Between you and ___, this is a secret.", "options": ["I", "me", "myself"], "answer": "me", "explanation": "После предлога between → me.", "topic": "Личные местоимения", "level": "B1" },
+  { "id": "e323","question": "He told ___ about the news.", "options": ["I", "me", "my"], "answer": "me", "explanation": "Дополнение → me.", "topic": "Личные местоимения", "level": "A1" },
+
+  { "id": "e324","question": "I cooked dinner ___.", "options": ["myself", "me", "I"], "answer": "myself", "explanation": "myself → сам / сама.", "topic": "Возвратные", "level": "B1" },
+  { "id": "e325","question": "She blames ___.", "options": ["her", "she", "herself"], "answer": "herself", "explanation": "Подлежащее = дополнение → herself.", "topic": "Возвратные", "level": "B1" },
+  { "id": "e326","question": "The kids made cookies all by ___.", "options": ["them", "themselves", "their"], "answer": "themselves", "explanation": "by themselves → сами без помощи.", "topic": "Возвратные", "level": "B1" },
+
+  { "id": "e327","question": "I'd rather you ___ here.", "options": ["stay", "stayed", "to stay"], "answer": "stayed", "explanation": "I'd rather + you + past form → пожелание адресата.", "topic": "Would rather", "level": "B1" },
+  { "id": "e328","question": "I'd rather ___ home tonight.", "options": ["stay", "stayed", "to stay"], "answer": "stay", "explanation": "I'd rather + V (своё пожелание).", "topic": "Would rather", "level": "B1" },
+
+  { "id": "e329","question": "It's high time you ___ studying.", "options": ["start", "started", "to start"], "answer": "started", "explanation": "It's (high) time + past form → пора уже.", "topic": "It's time", "level": "B1" },
+  { "id": "e330","question": "It's time we ___ home.", "options": ["go", "went", "to go"], "answer": "went", "explanation": "It's time + past form.", "topic": "It's time", "level": "B1" },
+
+  { "id": "e331","question": "She works at the office ___ Monday to Friday.", "options": ["from", "since", "in"], "answer": "from", "explanation": "from + старт периода.", "topic": "Период времени", "level": "B1" },
+  { "id": "e332","question": "The shop is open ___ 9 to 6.", "options": ["from", "since", "between"], "answer": "from", "explanation": "from … to → диапазон.", "topic": "Период времени", "level": "A2" },
+  { "id": "e333","question": "I'll be there ___ a minute.", "options": ["in", "for", "at"], "answer": "in", "explanation": "in + период до момента → через.", "topic": "Период времени", "level": "B1" },
+  { "id": "e334","question": "I haven't seen him ___ ages.", "options": ["since", "for", "in"], "answer": "for", "explanation": "for + период (длительность).", "topic": "Период времени", "level": "B1" },
+
+  { "id": "e335","question": "I prefer tea ___ coffee.", "options": ["to", "than", "over"], "answer": "to", "explanation": "prefer X to Y.", "topic": "Prefer / Rather", "level": "B1" },
+  { "id": "e336","question": "I'd prefer ___ go now.", "options": ["to", "than", "rather"], "answer": "to", "explanation": "would prefer + to + V.", "topic": "Prefer / Rather", "level": "B1" },
+
+  { "id": "e337","question": "If I ___ you, I'd accept the offer.", "options": ["am", "was", "were"], "answer": "were", "explanation": "If I were you → совет.", "topic": "Условные совет", "level": "B1" },
+  { "id": "e338","question": "If only she ___ here now!", "options": ["is", "was", "were"], "answer": "were", "explanation": "If only + past subjunctive → were.", "topic": "Условные совет", "level": "B1" },
+
+  { "id": "e339","question": "He drives ___ a sports car.", "options": ["as", "like", "such"], "answer": "like", "explanation": "like + сущ. → сравнение.", "topic": "As / Like обзор", "level": "B1" },
+  { "id": "e340","question": "As ___ I know, the train is on time.", "options": ["far", "fast", "much"], "answer": "far", "explanation": "as far as I know → насколько я знаю.", "topic": "As / Like обзор", "level": "B1" },
+
+  { "id": "e341","question": "She didn't go, ___ did her brother.", "options": ["so", "nor", "neither"], "answer": "nor", "explanation": "nor + вспом. + подлеж. → ни ... ни.", "topic": "Сочинительные", "level": "B1" },
+  { "id": "e342","question": "I want neither tea ___ coffee.", "options": ["nor", "or", "and"], "answer": "nor", "explanation": "neither … nor → ни … ни.", "topic": "Сочинительные", "level": "B1" },
+
+  { "id": "e343","question": "Could you ___ me at the station?", "options": ["meet", "to meet", "meeting"], "answer": "meet", "explanation": "После could → V без to.", "topic": "Закрепление модальные", "level": "A2" },
+  { "id": "e344","question": "I'm sorry I ___ help you.", "options": ["can't", "must not", "shouldn't"], "answer": "can't", "explanation": "Неспособность → can't.", "topic": "Закрепление модальные", "level": "A2" },
+  { "id": "e345","question": "You don't ___ to come if you're tired.", "options": ["must", "have", "should"], "answer": "have", "explanation": "don't have to → нет необходимости.", "topic": "Закрепление модальные", "level": "B1" },
+
+  { "id": "e346","question": "She works hard, ___ she's tired.", "options": ["so", "but", "and"], "answer": "but", "explanation": "Противопоставление → but.", "topic": "Логика обзор", "level": "A1" },
+  { "id": "e347","question": "It was raining, ___ we stayed inside.", "options": ["so", "but", "or"], "answer": "so", "explanation": "Причина-следствие → so.", "topic": "Логика обзор", "level": "A1" },
+  { "id": "e348","question": "Would you like tea ___ coffee?", "options": ["so", "and", "or"], "answer": "or", "explanation": "Альтернатива в вопросе → or.", "topic": "Логика обзор", "level": "A1" },
+  { "id": "e349","question": "I'm tired ___ hungry.", "options": ["so", "and", "but"], "answer": "and", "explanation": "Дополнение → and.", "topic": "Логика обзор", "level": "A1" },
+
+  { "id": "e350","question": "There ___ to be a problem.", "options": ["seem", "seems", "is seeming"], "answer": "seems", "explanation": "there + seems + to + V → кажется.", "topic": "Seem / Look", "level": "B1" },
+  { "id": "e351","question": "She seems ___ tired today.", "options": ["—", "to be", "being"], "answer": "to be", "explanation": "seem + to be + прил.", "topic": "Seem / Look", "level": "B1" },
+  { "id": "e352","question": "He looks ___ tired.", "options": ["—", "to be", "being"], "answer": "—", "explanation": "look + прил. (без to be).", "topic": "Seem / Look", "level": "B1" },
+
+  { "id": "e353","question": "By the time we arrived, the party ___.", "options": ["ended", "had ended", "has ended"], "answer": "had ended", "explanation": "by the time + past → Past Perfect для более раннего.", "topic": "By the time", "level": "B1" },
+  { "id": "e354","question": "By next year, I ___ at this company for 5 years.", "options": ["will work", "will be working", "will have worked"], "answer": "will have worked", "explanation": "by + future time → Future Perfect.", "topic": "Future Perfect", "level": "B1" },
+  { "id": "e355","question": "She'll have finished her degree by 2026.", "options": ["had", "will have", "is having"], "answer": "will have", "explanation": "Future Perfect: will have + V3.", "topic": "Future Perfect", "level": "B1" },
+
+  { "id": "e356","question": "He hasn't been working hard, ___ he?", "options": ["has", "is", "does"], "answer": "has", "explanation": "Present Perfect Continuous отрицание → tag has.", "topic": "Tags обзор", "level": "B1" },
+  { "id": "e357","question": "Nobody knows the answer, ___ they?", "options": ["does", "do", "don't"], "answer": "do", "explanation": "Nobody = отрицание → утвердительный tag do they.", "topic": "Tags обзор", "level": "B1" },
+  { "id": "e358","question": "Everyone is here, ___ they?", "options": ["isn't", "aren't", "are not"], "answer": "aren't", "explanation": "Everyone в значении people → tag aren't they.", "topic": "Tags обзор", "level": "B1" },
+
+  { "id": "e359","question": "She suggested ___ early.", "options": ["leave", "to leave", "leaving"], "answer": "leaving", "explanation": "suggest + V-ing.", "topic": "Глаголы + V-ing", "level": "B1" },
+  { "id": "e360","question": "I miss ___ in my hometown.", "options": ["live", "to live", "living"], "answer": "living", "explanation": "miss + V-ing.", "topic": "Глаголы + V-ing", "level": "B1" },
+  { "id": "e361","question": "He enjoyed ___ the film.", "options": ["watch", "to watch", "watching"], "answer": "watching", "explanation": "enjoy + V-ing.", "topic": "Глаголы + V-ing", "level": "A2" },
+  { "id": "e362","question": "Stop ___ noise!", "options": ["make", "to make", "making"], "answer": "making", "explanation": "stop + V-ing → перестать делать.", "topic": "Глаголы + V-ing", "level": "B1" },
+  { "id": "e363","question": "Don't forget ___ the keys.", "options": ["take", "to take", "taking"], "answer": "to take", "explanation": "forget + to + V → не забыть сделать.", "topic": "Глаголы + V-ing", "level": "B1" },
+  { "id": "e364","question": "I remember ___ him last year.", "options": ["meet", "to meet", "meeting"], "answer": "meeting", "explanation": "remember + V-ing → помнить о прошлом.", "topic": "Глаголы + V-ing", "level": "B1" },
+
+  { "id": "e365","question": "He's ___ his sister.", "options": ["taller than", "more tall than", "as tall"], "answer": "taller than", "explanation": "Сравнительная степень короткого прил.", "topic": "Закрепление сравнения", "level": "A2" },
+  { "id": "e366","question": "This is ___ I've ever read.", "options": ["the best book", "best book", "the better book"], "answer": "the best book", "explanation": "the + сущ. + present perfect → опыт + превосх.", "topic": "Закрепление сравнения", "level": "B1" },
+
+  { "id": "e367","question": "She's been studying ___ two hours.", "options": ["since", "for", "during"], "answer": "for", "explanation": "for + длительность.", "topic": "Present Perfect Cont.", "level": "B1" },
+  { "id": "e368","question": "I ___ been waiting all morning!", "options": ["am", "have", "had"], "answer": "have", "explanation": "Present Perfect Continuous: have/has been + V-ing.", "topic": "Present Perfect Cont.", "level": "B1" },
+  { "id": "e369","question": "It ___ raining since morning.", "options": ["has been", "is", "was"], "answer": "has been", "explanation": "Present Perfect Continuous для процесса от прошлого до сейчас.", "topic": "Present Perfect Cont.", "level": "B1" },
+
+  { "id": "e370","question": "I told her ___.", "options": ["the truth", "a truth", "truth"], "answer": "the truth", "explanation": "the truth — устойчивое (только the).", "topic": "Артикли финал", "level": "B1" },
+  { "id": "e371","question": "I had ___ at 8 a.m.", "options": ["a breakfast", "breakfast", "the breakfast"], "answer": "breakfast", "explanation": "Приёмы пищи — без артикля.", "topic": "Артикли финал", "level": "A2" },
+  { "id": "e372","question": "She works in ___ marketing.", "options": ["a", "the", "—"], "answer": "—", "explanation": "Перед общими понятиями (marketing, business) → без артикля.", "topic": "Артикли финал", "level": "B1" },
+
+  { "id": "e373","question": "I haven't decided ___.", "options": ["already", "yet", "still"], "answer": "yet", "explanation": "not + yet → ещё не.", "topic": "Already / Yet / Still", "level": "B1" },
+  { "id": "e374","question": "I've ___ finished my homework.", "options": ["already", "yet", "still"], "answer": "already", "explanation": "already → утверждение, до конца.", "topic": "Already / Yet / Still", "level": "B1" },
+  { "id": "e375","question": "He ___ lives with his parents.", "options": ["already", "yet", "still"], "answer": "still", "explanation": "still → всё ещё.", "topic": "Already / Yet / Still", "level": "B1" },
+  { "id": "e376","question": "Has she arrived ___?", "options": ["already", "yet", "still"], "answer": "yet", "explanation": "yet в вопросах → уже?", "topic": "Already / Yet / Still", "level": "B1" },
+
+  { "id": "e377","question": "I want a ___ shoes for the trip.", "options": ["pair", "couple", "set"], "answer": "pair", "explanation": "a pair of shoes — устойчивое.", "topic": "Партитивы", "level": "A2" },
+  { "id": "e378","question": "Could I have a ___ of paper?", "options": ["piece", "slice", "bar"], "answer": "piece", "explanation": "a piece of paper.", "topic": "Партитивы", "level": "A2" },
+  { "id": "e379","question": "She ate a ___ of cake.", "options": ["bar", "slice", "tin"], "answer": "slice", "explanation": "a slice of cake.", "topic": "Партитивы", "level": "A2" },
+  { "id": "e380","question": "He bought a ___ of chocolate.", "options": ["bar", "slice", "pair"], "answer": "bar", "explanation": "a bar of chocolate.", "topic": "Партитивы", "level": "A2" },
+  { "id": "e381","question": "I drink two ___ of milk a day.", "options": ["glasses", "cups", "loaves"], "answer": "glasses", "explanation": "a glass of milk.", "topic": "Партитивы", "level": "A2" },
+
+  { "id": "e382","question": "I don't know ___ to do.", "options": ["that", "what", "which"], "answer": "what", "explanation": "what + to + V → что делать.", "topic": "Indirect questions", "level": "B1" },
+  { "id": "e383","question": "Can you tell me ___ the meeting is?", "options": ["when", "what", "if"], "answer": "when", "explanation": "Косвенный вопрос со временем → when.", "topic": "Indirect questions", "level": "B1" },
+  { "id": "e384","question": "I wonder ___ they'll come.", "options": ["if", "what", "where"], "answer": "if", "explanation": "Косвенный yes/no вопрос → if/whether.", "topic": "Indirect questions", "level": "B1" },
+
+  { "id": "e385","question": "Don't speak ___ loudly.", "options": ["so", "such", "very"], "answer": "so", "explanation": "so + наречие.", "topic": "Modifiers финал", "level": "B1" },
+  { "id": "e386","question": "We had ___ a great evening.", "options": ["so", "such", "very"], "answer": "such", "explanation": "such + a + прил. + сущ.", "topic": "Modifiers финал", "level": "B1" },
+
+  { "id": "e387","question": "She arrived ___ the airport at 6.", "options": ["at", "in", "on"], "answer": "at", "explanation": "arrive at + конкр. место (точка).", "topic": "Arrive / Get", "level": "B1" },
+  { "id": "e388","question": "When did you arrive ___ Spain?", "options": ["at", "in", "to"], "answer": "in", "explanation": "arrive in + страна/город.", "topic": "Arrive / Get", "level": "B1" },
+  { "id": "e389","question": "I got ___ home at 9.", "options": ["—", "to", "in"], "answer": "—", "explanation": "get home — без предлога.", "topic": "Arrive / Get", "level": "B1" },
+
+  { "id": "e390","question": "He kept on ___ even when he was tired.", "options": ["work", "to work", "working"], "answer": "working", "explanation": "keep on + V-ing.", "topic": "Keep / Stop", "level": "B1" },
+  { "id": "e391","question": "She stopped ___ to me.", "options": ["talk", "to talk", "talking"], "answer": "talking", "explanation": "stop + V-ing → перестать делать.", "topic": "Keep / Stop", "level": "B1" },
+  { "id": "e392","question": "I stopped ___ a drink.", "options": ["have", "to have", "having"], "answer": "to have", "explanation": "stop + to + V → остановиться, чтобы.", "topic": "Keep / Stop", "level": "B1" },
+
+  { "id": "e393","question": "She is the woman ___ son lives in Paris.", "options": ["who", "whose", "which"], "answer": "whose", "explanation": "whose → притяж. относ. местоимение.", "topic": "Relative финал", "level": "B1" },
+  { "id": "e394","question": "I know a place ___ we can talk.", "options": ["which", "that", "where"], "answer": "where", "explanation": "where → относ. наречие места.", "topic": "Relative финал", "level": "B1" },
+
+  { "id": "e395","question": "The bus, ___ was late, finally came.", "options": ["who", "which", "that"], "answer": "which", "explanation": "В неогр. определит. придаточном → which (with comma).", "topic": "Relative финал", "level": "B1" },
+  { "id": "e396","question": "My brother, ___ is 10, loves football.", "options": ["who", "which", "that"], "answer": "who", "explanation": "Доп. инф. о человеке → who.", "topic": "Relative финал", "level": "B1" },
+
+  { "id": "e397","question": "He hasn't called, ___?", "options": ["has he", "hasn't he", "does he"], "answer": "has he", "explanation": "Present Perfect отрицание → tag has he.", "topic": "Финал tags", "level": "B1" },
+  { "id": "e398","question": "There's a problem, ___?", "options": ["isn't there", "isn't it", "doesn't it"], "answer": "isn't there", "explanation": "Tag к There is → isn't there.", "topic": "Финал tags", "level": "B1" },
+
+  { "id": "e399","question": "He was ___ shocked he couldn't speak.", "options": ["so", "such", "very"], "answer": "so", "explanation": "so + прил. + that → так … что.", "topic": "Финал so/such", "level": "B1" },
+  { "id": "e400","question": "It was ___ a long meeting!", "options": ["so", "such", "very"], "answer": "such", "explanation": "such + a + прил. + сущ.", "topic": "Финал so/such", "level": "B1" }
 ]
