@@ -1,0 +1,110 @@
+[
+  {
+    "id": "t1",
+    "title": "My Morning",
+    "level": "A1",
+    "content": "Every morning I wake up at seven. I drink a glass of water and go to the kitchen. My wife is already making coffee. We sit at the table and talk about our plans for the day. After breakfast I read the news on my phone for ten minutes. Then I take a shower and get ready for work."
+  },
+  {
+    "id": "t2",
+    "title": "At the Cafe",
+    "level": "A1",
+    "content": "I often go to a small cafe near my house. The waiter knows me and always says hello. I usually order black coffee and a piece of cake. There are big windows, so you can watch the street. I open my book and read for an hour. It is a quiet and pleasant place."
+  },
+  {
+    "id": "t3",
+    "title": "My Cat",
+    "level": "A1",
+    "content": "I have a cat. Her name is Luna. She is white with grey ears. Luna sleeps a lot during the day. In the evening she is very active and plays with a small ball. She likes to sit on my keyboard when I work. She is a funny and kind cat."
+  },
+  {
+    "id": "t4",
+    "title": "Saturday Plans",
+    "level": "A1",
+    "content": "Today is Saturday. I don't go to work today. I want to visit my parents in the morning. After lunch I will read a book in the park. In the evening my friends and I will watch a film. I love quiet weekends like this one."
+  },
+  {
+    "id": "t5",
+    "title": "My Favourite Hobby",
+    "level": "A1",
+    "content": "My favourite hobby is taking photos. I take my camera with me almost every day. I like to take photos of trees, old houses and the sky. I don't sell my photos. I just enjoy the process. When I look at a good photo, I remember the day I took it."
+  },
+  {
+    "id": "t6",
+    "title": "At the Supermarket",
+    "level": "A1",
+    "content": "On Sunday morning I go to the supermarket near my house. I always take a list with me. Today I need bread, milk, cheese and some vegetables. The supermarket is not very big, but it has everything I need. The lines are short. After ten minutes I'm already at home, making lunch."
+  },
+  {
+    "id": "t7",
+    "title": "A Walk in the City",
+    "level": "A2",
+    "content": "On Saturday we went for a walk in the city. The streets were full of people. We visited a small bookshop and bought two new books. Later we stopped at a cafe near the river. I had tea with lemon and my friend ordered hot chocolate. We talked for almost an hour. In the evening we took a bus home. It was a simple but very nice day."
+  },
+  {
+    "id": "t8",
+    "title": "A Difficult Day at Work",
+    "level": "A2",
+    "content": "Yesterday was a hard day at the office. I had three meetings in the morning and no time for lunch. My manager asked me to finish a report before Friday. I felt tired and a little nervous. In the evening I went home, made dinner, and watched a comedy. After thirty minutes of laughing I felt much better. Tomorrow will be a better day, I'm sure."
+  },
+  {
+    "id": "t9",
+    "title": "Learning a Language",
+    "level": "A2",
+    "content": "Learning a new language is not easy. You need patience and a little time every day. I usually study English for thirty minutes in the morning. I read short stories and write down new words in a notebook. Sometimes I watch videos with subtitles. The most important thing is to practice often. Even five minutes a day is better than nothing. Small steps lead to real progress."
+  },
+  {
+    "id": "t10",
+    "title": "Moving to a New City",
+    "level": "A2",
+    "content": "Two years ago I moved to a new city for work. At first it was difficult. I didn't know anyone and I didn't speak the language well. I felt lonely in the evenings. Then I started going to a small language school. I met other people who were new in the city too. Now I have good friends here and I really love my new home."
+  },
+  {
+    "id": "t11",
+    "title": "My First Trip Abroad",
+    "level": "A2",
+    "content": "I still remember my first trip abroad. I was twenty and I flew to Italy with two friends. We had very little money but a lot of energy. We slept in cheap hostels and ate pasta almost every day. We walked for hours in old cities and got lost many times. The people were kind and patient with our bad English. That trip changed something in me. Travel became a part of my life after it."
+  },
+  {
+    "id": "t12",
+    "title": "An Evening with Friends",
+    "level": "A2",
+    "content": "Last Friday I invited a few friends for dinner. I cooked pasta with mushrooms and made a simple salad. We sat around the table for almost three hours. Nobody looked at their phone. We talked about work, films, old memories and silly jokes. After dinner we played a card game and laughed a lot. Evenings like this don't happen often, and that's why they feel so special."
+  },
+  {
+    "id": "t13",
+    "title": "The Power of Habits",
+    "level": "B1",
+    "content": "Habits shape almost everything we do. We brush our teeth, check our phone, and pour our morning coffee without even thinking about it. Small habits, repeated every day, build the person we become. If you want to learn a language, you don't need to study for hours once a week. You need to study just a little, every single day. After a few months, the difference is huge. The secret isn't motivation — motivation comes and goes. The secret is showing up, even when you don't feel like it."
+  },
+  {
+    "id": "t14",
+    "title": "Why I Stopped Watching the News",
+    "level": "B1",
+    "content": "For years I read the news every morning before doing anything else. I thought it was important to know what was happening in the world. But after a while I noticed something. The news made me anxious. I started my day worried about events I could not change. So I decided to try a small experiment. I stopped checking the news in the morning and read it only in the evening, for fifteen minutes. After a month I felt calmer and more focused at work. I still know what's going on — I just don't let it ruin my morning."
+  },
+  {
+    "id": "t15",
+    "title": "A Letter from a Friend",
+    "level": "B1",
+    "content": "Dear Anna, it was so nice to hear from you last week. I'm sorry I'm only writing now, but life has been very busy. I finally finished the project at work and I have a few days off. The weather here is wonderful — warm in the day and cool in the evening. We had dinner in the garden last night. The kids asked when you would come and visit us again. Please send my best wishes to your family. Take care, and write back when you can."
+  },
+  {
+    "id": "t16",
+    "title": "The Last Train",
+    "level": "B1",
+    "content": "It was almost midnight when I arrived at the station. The platform was empty except for an old man with a small suitcase. He smiled at me kindly and asked if I was waiting for the last train to the coast. I said yes, and we started talking. He told me he had taken the same train every Friday for thirty years. His daughter lived by the sea, and he always spent the weekend with her. When the train finally arrived, we sat in different carriages. But I kept thinking about him — about all the small, quiet rituals that make a life."
+  },
+  {
+    "id": "t17",
+    "title": "The Art of Saying No",
+    "level": "B1",
+    "content": "For a long time I said yes to almost everything. Yes to extra projects, yes to late meetings, yes to weekend favours. I thought I was being kind. In reality, I was slowly running out of energy for the things I actually cared about. Learning to say no didn't make me a worse person. It made me a more honest one. Now, when I say yes, I really mean it. And when I say no, I don't apologise for ten minutes afterwards. Time, like attention, is a limited resource — and protecting it is not selfish."
+  },
+  {
+    "id": "t18",
+    "title": "Why Mornings Matter",
+    "level": "B1",
+    "content": "I used to think mornings were just something to survive. Coffee, news, a quick shower, run out the door. Then a friend suggested I try something different — fifteen minutes of silence before opening any screen. The first few days were strange. My mind wanted noise. But slowly, that quiet space became the most valuable part of my day. I make better decisions. I'm calmer in difficult conversations. Nothing magical happens in those fifteen minutes — and that's exactly the point. A morning that belongs to you sets the tone for everything else."
+  }
+]

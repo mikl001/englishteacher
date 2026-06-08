@@ -1,0 +1,62 @@
+[
+  { "id": "e1",  "question": "She ___ to school every day.", "options": ["go", "goes", "going"], "answer": "goes", "explanation": "В Present Simple для he/she/it к глаголу добавляется -s.", "topic": "Present Simple", "level": "A1" },
+  { "id": "e2",  "question": "I ___ coffee in the morning.", "options": ["drink", "drinks", "drinking"], "answer": "drink", "explanation": "С I/you/we/they глагол в Present Simple идёт без окончания -s.", "topic": "Present Simple", "level": "A1" },
+  { "id": "e3",  "question": "My brother ___ in a hospital.", "options": ["work", "works", "working"], "answer": "works", "explanation": "Третье лицо единственного числа (he/she/it) — к глаголу добавляется -s.", "topic": "Present Simple", "level": "A1" },
+  { "id": "e4",  "question": "We usually ___ dinner at seven.", "options": ["has", "have", "having"], "answer": "have", "explanation": "С we глагол to have в Present Simple остаётся в форме have, без -s.", "topic": "Present Simple", "level": "A1" },
+
+  { "id": "e5",  "question": "Look! They ___ TV right now.", "options": ["watch", "watches", "are watching"], "answer": "are watching", "explanation": "Действие происходит прямо сейчас — это Present Continuous: be + V-ing.", "topic": "Present Continuous", "level": "A1" },
+  { "id": "e6",  "question": "I can't talk now. I ___ a shower.", "options": ["take", "takes", "am taking"], "answer": "am taking", "explanation": "Действие в момент речи — Present Continuous: am/is/are + V-ing.", "topic": "Present Continuous", "level": "A2" },
+  { "id": "e7",  "question": "Be quiet! The baby ___.", "options": ["sleeps", "sleep", "is sleeping"], "answer": "is sleeping", "explanation": "Сейчас в момент речи — Present Continuous, с he/she/it используется is.", "topic": "Present Continuous", "level": "A2" },
+
+  { "id": "e8",  "question": "He ___ in London for five years.", "options": ["live", "lives", "has lived"], "answer": "has lived", "explanation": "Действие началось в прошлом и продолжается — Present Perfect: have/has + V3.", "topic": "Present Perfect", "level": "B1" },
+  { "id": "e9",  "question": "I ___ never ___ to Japan.", "options": ["have / been", "did / go", "am / being"], "answer": "have / been", "explanation": "Опыт в течение жизни — Present Perfect с never: have/has + V3.", "topic": "Present Perfect", "level": "B1" },
+  { "id": "e10", "question": "She ___ just ___ her homework.", "options": ["has / finished", "is / finishing", "did / finish"], "answer": "has / finished", "explanation": "С наречием just употребляется Present Perfect: has + V3.", "topic": "Present Perfect", "level": "B1" },
+
+  { "id": "e11", "question": "We ___ to the park yesterday.", "options": ["go", "went", "have gone"], "answer": "went", "explanation": "Слово yesterday указывает на конкретное время в прошлом — Past Simple.", "topic": "Past Simple", "level": "A1" },
+  { "id": "e12", "question": "He ___ his keys two days ago.", "options": ["lose", "lost", "has lost"], "answer": "lost", "explanation": "two days ago — конкретное время в прошлом, нужен Past Simple. lose → lost.", "topic": "Past Simple", "level": "A2" },
+  { "id": "e13", "question": "I ___ that film last week.", "options": ["see", "saw", "have seen"], "answer": "saw", "explanation": "last week — указатель Past Simple. Неправильный глагол: see → saw.", "topic": "Past Simple", "level": "A2" },
+
+  { "id": "e14", "question": "While I ___ dinner, the phone rang.", "options": ["cooked", "was cooking", "have cooked"], "answer": "was cooking", "explanation": "Длительное действие в прошлом, прерванное другим — Past Continuous: was/were + V-ing.", "topic": "Past Continuous", "level": "B1" },
+  { "id": "e15", "question": "At 8 p.m. yesterday they ___ a film.", "options": ["watched", "were watching", "watch"], "answer": "were watching", "explanation": "Действие в определённый момент в прошлом — Past Continuous: were + V-ing.", "topic": "Past Continuous", "level": "B1" },
+
+  { "id": "e16", "question": "I ___ you tomorrow morning.", "options": ["call", "will call", "am calling"], "answer": "will call", "explanation": "Решение о будущем, принятое в момент речи — Future Simple: will + V.", "topic": "Future Simple", "level": "A2" },
+  { "id": "e17", "question": "Don't worry, it ___ fine.", "options": ["is", "will be", "was"], "answer": "will be", "explanation": "Предсказание о будущем — Future Simple: will be.", "topic": "Future Simple", "level": "A2" },
+  { "id": "e18", "question": "Maybe she ___ to the party.", "options": ["come", "comes", "will come"], "answer": "will come", "explanation": "Неуверенное предположение о будущем — Future Simple с will.", "topic": "Future Simple", "level": "A2" },
+
+  { "id": "e19", "question": "My brother ___ a doctor.", "options": ["am", "is", "are"], "answer": "is", "explanation": "С he/she/it используется форма is глагола to be.", "topic": "To Be", "level": "A1" },
+  { "id": "e20", "question": "There ___ many books on the table.", "options": ["is", "are", "be"], "answer": "are", "explanation": "books — существительное во множественном числе, поэтому there are.", "topic": "There is / there are", "level": "A1" },
+  { "id": "e21", "question": "There ___ a small mistake in your text.", "options": ["is", "are", "be"], "answer": "is", "explanation": "mistake — единственное число, поэтому there is.", "topic": "There is / there are", "level": "A1" },
+
+  { "id": "e22", "question": "She has ___ apple.", "options": ["a", "an", "the"], "answer": "an", "explanation": "Перед словами, начинающимися с гласного звука, ставится артикль an.", "topic": "Артикли", "level": "A1" },
+  { "id": "e23", "question": "Look at ___ moon tonight, it's beautiful.", "options": ["a", "an", "the"], "answer": "the", "explanation": "Перед уникальными объектами (moon, sun, sky) ставится определённый артикль the.", "topic": "Артикли", "level": "A2" },
+  { "id": "e24", "question": "I bought ___ new phone yesterday.", "options": ["a", "an", "the"], "answer": "a", "explanation": "Существительное в первый раз, начинается с согласного звука — артикль a.", "topic": "Артикли", "level": "A1" },
+
+  { "id": "e25", "question": "You ___ smoke here, it's not allowed.", "options": ["can", "must not", "should"], "answer": "must not", "explanation": "Запрет выражается через must not (mustn't).", "topic": "Модальные глаголы", "level": "A2" },
+  { "id": "e26", "question": "She ___ speak three languages.", "options": ["can", "must", "should"], "answer": "can", "explanation": "Способность выражается модальным глаголом can.", "topic": "Модальные глаголы", "level": "A1" },
+  { "id": "e27", "question": "You ___ see a doctor, you don't look well.", "options": ["can", "must not", "should"], "answer": "should", "explanation": "Совет выражается модальным глаголом should.", "topic": "Модальные глаголы", "level": "A2" },
+
+  { "id": "e28", "question": "This book is ___ than that one.", "options": ["interesting", "more interesting", "most interesting"], "answer": "more interesting", "explanation": "Длинные прилагательные образуют сравнительную степень с more.", "topic": "Степени сравнения", "level": "A2" },
+  { "id": "e29", "question": "Today is ___ day of the year.", "options": ["hot", "hotter", "the hottest"], "answer": "the hottest", "explanation": "Превосходная степень короткого прилагательного: the + прил. + -est.", "topic": "Степени сравнения", "level": "A2" },
+  { "id": "e30", "question": "Coffee is ___ tea for me.", "options": ["good", "better than", "the best"], "answer": "better than", "explanation": "Сравнение через better than (good — better — the best).", "topic": "Степени сравнения", "level": "B1" },
+
+  { "id": "e31", "question": "If it ___ tomorrow, we will stay at home.", "options": ["rain", "rains", "will rain"], "answer": "rains", "explanation": "В 1st Conditional: после if — Present Simple, в главной части — will + V.", "topic": "Условные предложения", "level": "B1" },
+  { "id": "e32", "question": "If you study hard, you ___ the exam.", "options": ["pass", "will pass", "passed"], "answer": "will pass", "explanation": "1st Conditional: главная часть — will + V (реальное будущее).", "topic": "Условные предложения", "level": "B1" },
+  { "id": "e33", "question": "She will be angry if you ___ late.", "options": ["are", "will be", "were"], "answer": "are", "explanation": "После if в 1st Conditional — Present Simple, даже когда речь о будущем.", "topic": "Условные предложения", "level": "B1" },
+
+  { "id": "e34", "question": "The letter ___ yesterday.", "options": ["was sent", "sent", "is sending"], "answer": "was sent", "explanation": "Пассивный залог в Past Simple: was/were + V3.", "topic": "Пассивный залог", "level": "B1" },
+  { "id": "e35", "question": "English ___ all over the world.", "options": ["speaks", "is spoken", "speaking"], "answer": "is spoken", "explanation": "Пассивный залог в Present Simple: am/is/are + V3.", "topic": "Пассивный залог", "level": "B1" },
+  { "id": "e36", "question": "The bridge ___ in 1890.", "options": ["built", "was built", "is built"], "answer": "was built", "explanation": "Пассив в прошлом, с указанием года — was built.", "topic": "Пассивный залог", "level": "B1" },
+
+  { "id": "e37", "question": "How ___ sugar do you take in your tea?", "options": ["many", "much", "few"], "answer": "much", "explanation": "Sugar — неисчисляемое, поэтому much.", "topic": "Many / Much / Few / Little", "level": "A2" },
+  { "id": "e38", "question": "There aren't ___ apples in the fridge.", "options": ["much", "many", "a little"], "answer": "many", "explanation": "Apples — исчисляемые во множественном числе, поэтому many.", "topic": "Many / Much / Few / Little", "level": "A2" },
+  { "id": "e39", "question": "I have ___ time, let's hurry.", "options": ["little", "few", "many"], "answer": "little", "explanation": "Time — неисчисляемое; «мало» для него — little.", "topic": "Many / Much / Few / Little", "level": "B1" },
+
+  { "id": "e40", "question": "Would you like ___ water?", "options": ["some", "any", "no"], "answer": "some", "explanation": "В вежливых предложениях и предложениях типа угощения используется some.", "topic": "Some / Any / No", "level": "A2" },
+  { "id": "e41", "question": "I don't have ___ money with me.", "options": ["some", "any", "no"], "answer": "any", "explanation": "В отрицательных предложениях используется any.", "topic": "Some / Any / No", "level": "A2" },
+
+  { "id": "e42", "question": "When I was a child, I ___ play football every day.", "options": ["used to", "use to", "am used to"], "answer": "used to", "explanation": "used to + V — привычка в прошлом, которой больше нет.", "topic": "Used to", "level": "B1" },
+  { "id": "e43", "question": "He ___ smoke, but he stopped two years ago.", "options": ["uses to", "used to", "is used to"], "answer": "used to", "explanation": "used to + V для прошлой привычки. Форма не меняется.", "topic": "Used to", "level": "B1" },
+
+  { "id": "e44", "question": "You are coming with us, ___?", "options": ["aren't you", "don't you", "isn't it"], "answer": "aren't you", "explanation": "Question tag к утверждению с are — отрицательный aren't you.", "topic": "Question tags", "level": "B1" },
+  { "id": "e45", "question": "She doesn't like coffee, ___?", "options": ["does she", "doesn't she", "is she"], "answer": "does she", "explanation": "Question tag к отрицанию в Present Simple — утвердительный does she.", "topic": "Question tags", "level": "B1" }
+]
