@@ -49,7 +49,7 @@ const features = [
   },
   {
     title: "Грамматика по темам",
-    body: "510 упражнений по 80+ грамматическим темам, включая C1-уровень (инверсия, mixed conditionals, mandative subjunctive, cleft sentences, formal expressions). Фильтруется по уровню пользователя. На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
+    body: "660 упражнений по 100+ грамматическим темам, включая C1: инверсия, mixed conditionals, mandative subjunctive, cleft sentences, formal expressions, фразовые глаголы (60+), словообразование, идиомы, коллокации, hedging language, деловой английский. Фильтруется по уровню пользователя. На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
     files: "app/grammar/page.tsx, data/default-exercises.json",
   },
   {
@@ -94,7 +94,7 @@ const tree = [
   "lib/                    — storage.ts, chat.ts, speech.ts, types.ts",
   "data/                   — default-words.json (1400+, A1–C1),",
   "                          default-texts.json (145, A1–C1),",
-  "                          default-exercises.json (510, A1–C1)",
+  "                          default-exercises.json (660, A1–C1)",
 ];
 
 export default function AboutPage() {

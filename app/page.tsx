@@ -50,7 +50,7 @@ const features = [
 const stats = [
   { value: "1400+", label: "слов · A1–C1" },
   { value: "145", label: "текстов · A1–C1" },
-  { value: "510", label: "упражнений" },
+  { value: "660", label: "упражнений" },
   { value: "5", label: "уровней (A1–C1)" },
 ];
 

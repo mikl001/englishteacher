@@ -53,7 +53,7 @@ export function meetsLevel(itemLevel: Level | undefined, userLevel: Level): bool
 
 // Версия дефолтного контента. При увеличении старые кеши слов/текстов/упражнений
 // автоматически перезатираются новым набором, прогресс при этом сохраняется.
-const DEFAULTS_VERSION = 6;
+const DEFAULTS_VERSION = 7;
 const VERSION_KEY = "defaults_version";
 
 function maybeMigrateDefaults(): void {
