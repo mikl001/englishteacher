@@ -128,13 +128,13 @@ export default function TypingPage() {
       </div>
       <ProgressBar value={index + 1} max={words.length} tone="emerald" />
 
-      <Card className="relative overflow-hidden p-8">
+      <Card className="relative overflow-hidden p-5 sm:p-8">
         <div className="pointer-events-none absolute -right-20 -top-20 h-40 w-40 rounded-full bg-emerald-500/10 blur-3xl" />
         <div className="relative text-center">
           <div className="text-xs uppercase tracking-wider text-zinc-500">
             Переведи на английский
           </div>
-          <div className="mt-3 text-3xl font-semibold text-zinc-100">
+          <div className="mt-3 text-2xl font-semibold text-zinc-100 sm:text-3xl">
             {current.russian}
           </div>
           {current.example && verdict !== "idle" && (
@@ -157,7 +157,7 @@ export default function TypingPage() {
             autoComplete="off"
             autoCapitalize="off"
             placeholder="набери английский вариант"
-            className={`w-full rounded-lg border-2 px-4 py-3 text-center font-mono text-2xl tracking-wide outline-none transition-colors placeholder:text-zinc-600 ${inputClass}`}
+            className={`w-full rounded-lg border-2 px-4 py-3 text-center font-mono text-lg tracking-wide outline-none transition-colors placeholder:text-zinc-600 sm:text-2xl ${inputClass}`}
           />
         </div>
 

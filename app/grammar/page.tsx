@@ -156,8 +156,8 @@ export default function GrammarPage() {
       </div>
       <ProgressBar value={index + 1} max={list.length} />
 
-      <Card className="p-8">
-        <div className="text-2xl leading-relaxed text-zinc-100">
+      <Card className="p-5 sm:p-8">
+        <div className="text-lg leading-relaxed text-zinc-100 sm:text-2xl">
           {parts.map((part, i) => (
             <span key={i}>
               {part}

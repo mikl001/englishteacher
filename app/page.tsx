@@ -67,7 +67,7 @@ export default function LandingPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden pt-10 pb-24 sm:pt-20 sm:pb-32">
+      <section className="relative overflow-hidden pt-8 pb-20 sm:pt-20 sm:pb-32">
         <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-96 w-[800px] -translate-x-1/2 rounded-full bg-indigo-500/15 blur-3xl" />
         <div className="pointer-events-none absolute -right-32 top-40 -z-10 h-80 w-80 rounded-full bg-fuchsia-500/10 blur-3xl" />
 
@@ -78,7 +78,7 @@ export default function LandingPage() {
             Личный pet-проект · open source
           </div>
 
-          <h1 className="mt-6 text-5xl font-semibold leading-[1.05] tracking-tight text-zinc-100 sm:text-6xl md:text-7xl">
+          <h1 className="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight text-zinc-100 sm:text-6xl md:text-7xl">
             Учи английский{" "}
             <span className="bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">
               по-своему
@@ -86,12 +86,12 @@ export default function LandingPage() {
             .
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400 sm:text-xl">
+          <p className="mx-auto mt-5 max-w-2xl text-base text-zinc-400 sm:mt-6 sm:text-xl">
             Карточки, чтение с переводом, тренажёр написания и AI-репетитор —
             в одной чистой тёмной оболочке. Без аккаунта, без подписок, работает в браузере.
           </p>
 
-          <div className="mt-10 flex flex-wrap justify-center gap-3">
+          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:justify-center">
             <Link
               href="/dashboard"
               className="inline-flex h-12 items-center justify-center rounded-lg bg-gradient-to-b from-indigo-500 to-indigo-600 px-6 text-base font-medium text-white shadow-[0_8px_30px_-8px_rgba(99,102,241,0.6)] transition-all hover:from-indigo-400 hover:to-indigo-500"
@@ -107,10 +107,10 @@ export default function LandingPage() {
           </div>
 
           {/* Метрики под CTA */}
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="mx-auto mt-12 grid max-w-2xl grid-cols-2 gap-4 sm:mt-16 sm:grid-cols-4">
             {stats.map((s) => (
               <div key={s.label} className="text-center">
-                <div className="font-mono text-3xl font-semibold tracking-tight text-zinc-100">
+                <div className="font-mono text-2xl font-semibold tracking-tight text-zinc-100 sm:text-3xl">
                   {s.value}
                 </div>
                 <div className="mt-1 text-xs uppercase tracking-wider text-zinc-500">
@@ -255,7 +255,7 @@ export default function LandingPage() {
               Прогресс сохраняется в твоём браузере. Никакого аккаунта.
               Пять минут — и первая порция слов уже в работе.
             </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
               <Link
                 href="/dashboard"
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-gradient-to-b from-indigo-500 to-indigo-600 px-6 text-base font-medium text-white shadow-[0_8px_30px_-8px_rgba(99,102,241,0.6)] transition-all hover:from-indigo-400 hover:to-indigo-500"

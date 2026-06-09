@@ -141,14 +141,14 @@ function ReadingView({
         ← Все тексты
       </button>
 
-      <div className="mb-6 flex items-baseline justify-between gap-3">
-        <h1 className="text-3xl font-semibold tracking-tight text-zinc-100">
+      <div className="mb-5 flex items-baseline justify-between gap-3 sm:mb-6">
+        <h1 className="text-2xl font-semibold tracking-tight text-zinc-100 sm:text-3xl">
           {text.title}
         </h1>
         {text.level && <LevelBadge level={text.level} />}
       </div>
 
-      <div className="relative text-lg leading-relaxed text-zinc-300">
+      <div className="relative text-base leading-relaxed text-zinc-300 sm:text-lg">
         {tokens.map((tok, i) => {
           if (!tok.isWord) return <span key={i}>{tok.text}</span>;
           const isSelected = selectedIdx === i;
@@ -208,7 +208,7 @@ function WordPopover({
   return (
     <span
       data-popover
-      className="animate-pop-in absolute left-0 top-full z-20 mt-2 block w-72 origin-top rounded-xl border border-zinc-700 bg-zinc-900/95 p-4 text-left text-sm shadow-2xl backdrop-blur-md"
+      className="animate-pop-in absolute left-0 top-full z-20 mt-2 block w-72 max-w-[min(18rem,calc(100vw-2rem))] origin-top rounded-xl border border-zinc-700 bg-zinc-900/95 p-4 text-left text-sm shadow-2xl backdrop-blur-md"
       style={{ fontStyle: "normal" }}
     >
       <div className="flex items-center justify-between">
@@ -253,7 +253,7 @@ function WordPopover({
                 if (e.key === "Enter") save();
               }}
               placeholder="перевод"
-              className="flex-1 rounded-md border border-zinc-700 bg-zinc-950 px-3 py-1.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+              className="flex-1 rounded-md border border-zinc-700 bg-zinc-950 px-3 py-1.5 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
             />
             <Button size="sm" onClick={save} disabled={!draft.trim()}>
               OK

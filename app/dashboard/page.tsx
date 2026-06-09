@@ -87,10 +87,10 @@ export default function DashboardPage() {
   }, []);
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-8 sm:space-y-10">
       <section>
         <div className="text-sm text-zinc-500">{greeting()}.</div>
-        <h1 className="mt-1 text-4xl font-semibold tracking-tight text-zinc-100">
+        <h1 className="mt-1 text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">
           Продолжим{" "}
           <span className="bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">
             учиться?
@@ -110,11 +110,11 @@ export default function DashboardPage() {
       </section>
 
       <section>
-        <div className="mb-4 flex items-baseline justify-between gap-3">
+        <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
           <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">
             Твой уровень
           </h2>
-          <span className="text-xs text-zinc-500">
+          <span className="text-xs text-zinc-600 sm:text-zinc-500">
             фильтрует слова, тексты и упражнения
           </span>
         </div>

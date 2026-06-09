@@ -97,17 +97,17 @@ export default function CardsPage() {
       </div>
       <ProgressBar value={index + 1} max={words.length} />
 
-      <Card className="relative overflow-hidden p-10">
+      <Card className="relative overflow-hidden p-6 sm:p-10">
         {/* Декоративные блобы для глубины */}
         <div className="pointer-events-none absolute -right-24 -top-24 h-48 w-48 rounded-full bg-indigo-500/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-24 -left-10 h-40 w-40 rounded-full bg-fuchsia-500/10 blur-3xl" />
 
-        <div className="absolute right-4 top-4">
+        <div className="absolute right-3 top-3 sm:right-4 sm:top-4">
           <SpeakButton text={current.english} />
         </div>
 
         <div className="relative flex flex-col items-center text-center">
-          <div className="font-mono text-5xl font-semibold tracking-tight text-zinc-100">
+          <div className="break-all font-mono text-3xl font-semibold tracking-tight text-zinc-100 sm:text-5xl">
             {current.english}
           </div>
 
@@ -133,8 +133,14 @@ export default function CardsPage() {
         </div>
       </Card>
 
-      <div className="grid grid-cols-3 gap-3">
-        <Button variant="danger" size="lg" onClick={() => rate("learning")} disabled={!revealed}>
+      <div className="grid grid-cols-3 gap-2 sm:gap-3">
+        <Button
+          variant="danger"
+          size="lg"
+          onClick={() => rate("learning")}
+          disabled={!revealed}
+          className="px-2 text-sm sm:px-6 sm:text-base"
+        >
           Не знаю
         </Button>
         <Button
@@ -142,11 +148,17 @@ export default function CardsPage() {
           size="lg"
           onClick={() => rate("hard")}
           disabled={!revealed}
-          className="border-amber-500/30 bg-amber-500/10 text-amber-300 hover:border-amber-500/50 hover:bg-amber-500/15"
+          className="border-amber-500/30 bg-amber-500/10 px-2 text-sm text-amber-300 hover:border-amber-500/50 hover:bg-amber-500/15 sm:px-6 sm:text-base"
         >
           Сложное
         </Button>
-        <Button variant="success" size="lg" onClick={() => rate("known")} disabled={!revealed}>
+        <Button
+          variant="success"
+          size="lg"
+          onClick={() => rate("known")}
+          disabled={!revealed}
+          className="px-2 text-sm sm:px-6 sm:text-base"
+        >
           Знаю
         </Button>
       </div>

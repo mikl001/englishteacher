@@ -82,17 +82,17 @@ export default function PracticePage() {
   }
 
   return (
-    <div className="mx-auto flex min-h-[480px] w-full max-w-3xl flex-1 flex-col gap-4">
-      <div className="flex items-baseline justify-between gap-3">
-        <div>
-          <h1 className="text-3xl font-semibold tracking-tight text-zinc-100">
+    <div className="mx-auto flex min-h-[460px] w-full max-w-3xl flex-1 flex-col gap-3 sm:gap-4">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
+        <div className="min-w-0">
+          <h1 className="text-2xl font-semibold tracking-tight text-zinc-100 sm:text-3xl">
             Практика с агентом
           </h1>
           <p className="mt-1 text-sm text-zinc-400">
             Общайся с AI-репетитором по-английски. Он исправляет ошибки и держит беседу.
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex shrink-0 gap-2">
           <Button variant="ghost" onClick={() => setSettingsOpen(true)}>
             Настройки
           </Button>
@@ -176,8 +176,8 @@ export default function PracticePage() {
                     }
                   }}
                   rows={1}
-                  placeholder="Type in English… (Enter — send, Shift+Enter — new line)"
-                  className="max-h-32 min-h-[40px] flex-1 resize-none rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+                  placeholder="Type in English… (Enter — send)"
+                  className="max-h-32 min-h-[44px] flex-1 resize-none rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
                 />
                 <Button onClick={send} disabled={pending || !input.trim()}>
                   Send
@@ -284,7 +284,7 @@ function SettingsForm({
             value={baseUrl}
             onChange={(e) => setBaseUrl(e.target.value)}
             placeholder="https://openrouter.ai/api/v1"
-            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
           />
           <Hint>Любой OpenAI-совместимый endpoint. Без хвостового слэша.</Hint>
         </div>
@@ -296,7 +296,7 @@ function SettingsForm({
             onChange={(e) => setApiKey(e.target.value)}
             placeholder="sk-..."
             autoComplete="off"
-            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
           />
           <Hint>Хранится локально в твоём браузере и никуда не уходит, кроме указанного выше URL.</Hint>
         </div>
@@ -306,7 +306,7 @@ function SettingsForm({
             value={model}
             onChange={(e) => setModel(e.target.value)}
             placeholder="nousresearch/hermes-3-llama-3.1-405b"
-            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+            className="mt-1 w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
           />
           <Hint>
             Например: <span className="font-mono">nousresearch/hermes-3-llama-3.1-405b</span> (OpenRouter),{" "}
@@ -328,7 +328,7 @@ function SettingsForm({
             value={systemPrompt}
             onChange={(e) => setSystemPrompt(e.target.value)}
             rows={6}
-            className="mt-1 w-full resize-y rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-xs text-zinc-100 focus:border-indigo-500 focus:outline-none"
+            className="mt-1 w-full resize-y rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-base text-zinc-100 focus:border-indigo-500 focus:outline-none sm:text-xs"
           />
           <Hint>Роль агента. Можно поменять, например, на «носитель из Лондона, говорит сленгом».</Hint>
         </div>

@@ -79,7 +79,9 @@ export default function DictionaryPage() {
             {words.length} слов · {counts.known} выучено
           </p>
         </div>
-        <Button onClick={() => setAddOpen(true)}>+ Добавить слово</Button>
+        <Button onClick={() => setAddOpen(true)} className="self-stretch sm:self-auto">
+          + Добавить слово
+        </Button>
       </div>
 
       <Card className="p-4">
@@ -88,7 +90,7 @@ export default function DictionaryPage() {
           placeholder="Поиск по слову или переводу…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+          className="w-full rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
         />
         <div className="mt-3 flex flex-wrap gap-1.5">
           {filterOrder.map((f) => (
@@ -120,13 +122,13 @@ export default function DictionaryPage() {
           {filtered.map((w) => (
             <div
               key={w.id}
-              className="flex items-center justify-between gap-4 p-4 transition-colors hover:bg-zinc-800/40"
+              className="flex items-center justify-between gap-3 p-3 transition-colors hover:bg-zinc-800/40 sm:gap-4 sm:p-4"
             >
-              <div className="flex min-w-0 items-center gap-2">
+              <div className="flex min-w-0 flex-1 items-center gap-2">
                 <StatusDot status={w.status} />
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono text-base font-semibold text-zinc-100">
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-1.5">
+                    <span className="truncate font-mono text-base font-semibold text-zinc-100">
                       {w.english}
                     </span>
                     <SpeakButton text={w.english} size="sm" />
@@ -136,9 +138,12 @@ export default function DictionaryPage() {
                       {w.example}
                     </div>
                   )}
+                  <div className="mt-0.5 text-sm text-zinc-300 sm:hidden">
+                    {w.russian}
+                  </div>
                 </div>
               </div>
-              <div className="flex shrink-0 items-center gap-4 text-right">
+              <div className="hidden shrink-0 items-center gap-4 text-right sm:flex">
                 <div className="text-sm text-zinc-300">{w.russian}</div>
                 {w.reviewCount > 0 && (
                   <div className="font-mono text-xs text-zinc-600">
@@ -146,6 +151,11 @@ export default function DictionaryPage() {
                   </div>
                 )}
               </div>
+              {w.reviewCount > 0 && (
+                <div className="shrink-0 font-mono text-xs text-zinc-600 sm:hidden">
+                  {w.reviewCount}×
+                </div>
+              )}
             </div>
           ))}
         </Card>
@@ -195,13 +205,13 @@ function AddWordForm({
           value={english}
           onChange={(e) => setEnglish(e.target.value)}
           placeholder="english"
-          className="rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+          className="rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 font-mono text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
         />
         <input
           value={russian}
           onChange={(e) => setRussian(e.target.value)}
           placeholder="перевод"
-          className="rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none"
+          className="rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-base text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-500 focus:outline-none sm:text-sm"
         />
         <div className="flex gap-2">
           <Button type="submit" disabled={!english.trim() || !russian.trim()}>

@@ -28,7 +28,7 @@ export function Heatmap({ days }: { days: DailyProgress[] }) {
           />
         ))}
       </div>
-      <div className="flex items-center justify-end gap-2 text-xs text-zinc-500">
+      <div className="flex flex-wrap items-center justify-end gap-1.5 text-xs text-zinc-500 sm:gap-2">
         <span>меньше</span>
         <div className="h-3 w-3 rounded-sm bg-zinc-800/70 ring-1 ring-inset ring-zinc-800" />
         <div className="h-3 w-3 rounded-sm bg-indigo-500/30" />
