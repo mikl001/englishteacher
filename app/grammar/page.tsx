@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Exercise } from "@/lib/types";
-import { getExercises } from "@/lib/storage";
+import { getExercises, getUserLevel, meetsLevel } from "@/lib/storage";
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
 import { ProgressBar } from "@/components/ProgressBar";
@@ -15,7 +15,8 @@ export default function GrammarPage() {
   const [correctCount, setCorrectCount] = useState(0);
 
   useEffect(() => {
-    setExercises(getExercises());
+    const level = getUserLevel();
+    setExercises(getExercises().filter((e) => meetsLevel(e.level, level)));
   }, []);
 
   const topics = useMemo(() => {

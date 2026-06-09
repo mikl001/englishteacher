@@ -49,12 +49,12 @@ const features = [
   },
   {
     title: "Грамматика по темам",
-    body: "Более 60 грамматических тем (Present/Past/Future времена, артикли, модальные, условные, косвенная речь, предлоги, фразовые глаголы, относительные предложения, согласование, Used to, Have something done и многое другое). На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
+    body: "510 упражнений по 80+ грамматическим темам, включая C1-уровень (инверсия, mixed conditionals, mandative subjunctive, cleft sentences, formal expressions). Фильтруется по уровню пользователя. На входе — экран выбора темы. Правильный ответ подсвечивается зелёным, неверный — розовым, объяснение в выделенном блоке.",
     files: "app/grammar/page.tsx, data/default-exercises.json",
   },
   {
     title: "Словарь с фильтрами",
-    body: "1200 слов по 70+ темам. Фильтры по статусам, поиск по строке, форма добавления своих слов. Статус подсвечивается светящейся точкой.",
+    body: "1400+ слов по 80+ темам, с уровнями A1–C1. Фильтры по статусам, поиск по строке, форма добавления своих слов. Статус подсвечивается светящейся точкой.",
     files: "app/dictionary/page.tsx",
   },
   {
@@ -92,9 +92,9 @@ const tree = [
   "components/             — Card, Button, Nav, StatCard,",
   "                          ProgressBar, SpeakButton, Heatmap",
   "lib/                    — storage.ts, chat.ts, speech.ts, types.ts",
-  "data/                   — default-words.json (1200),",
-  "                          default-texts.json (120),",
-  "                          default-exercises.json (400)",
+  "data/                   — default-words.json (1400+, A1–C1),",
+  "                          default-texts.json (145, A1–C1),",
+  "                          default-exercises.json (510, A1–C1)",
 ];
 
 export default function AboutPage() {

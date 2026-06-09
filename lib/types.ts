@@ -1,6 +1,15 @@
 // Общие типы данных проекта.
 
-export type Level = "A1" | "A2" | "B1";
+export type Level = "A1" | "A2" | "B1" | "B2" | "C1";
+
+// Порядок уровней для сравнения. Чем больше число, тем сложнее.
+export const LEVEL_ORDER: Record<Level, number> = {
+  A1: 0,
+  A2: 1,
+  B1: 2,
+  B2: 3,
+  C1: 4,
+};
 
 // Статус слова с точки зрения изучения.
 // 'new' — пользователь ещё не оценивал слово.
@@ -15,6 +24,7 @@ export type Word = {
   russian: string;
   example?: string;
   topic?: string;
+  level?: Level;
   status: WordStatus;
   reviewCount: number;
 };

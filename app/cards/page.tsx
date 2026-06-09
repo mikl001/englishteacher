@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { Word, WordStatus } from "@/lib/types";
-import { getWords, updateWordStatus } from "@/lib/storage";
+import { getUserLevel, getWords, meetsLevel, updateWordStatus } from "@/lib/storage";
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
 import { ProgressBar } from "@/components/ProgressBar";
@@ -21,7 +21,9 @@ export default function CardsPage() {
   const [revealed, setRevealed] = useState(false);
 
   useEffect(() => {
-    setWords(sortForReview(getWords()));
+    const level = getUserLevel();
+    const all = getWords().filter((w) => meetsLevel(w.level, level));
+    setWords(sortForReview(all));
   }, []);
 
   if (words === null) {
@@ -31,15 +33,15 @@ export default function CardsPage() {
   if (words.length === 0) {
     return (
       <Card className="mx-auto max-w-md p-8 text-center">
-        <h1 className="text-2xl font-semibold text-zinc-100">Словарь пуст</h1>
+        <h1 className="text-2xl font-semibold text-zinc-100">Нет слов для этого уровня</h1>
         <p className="mt-2 text-sm text-zinc-400">
-          Добавь слова в{" "}
+          На выбранном уровне нет слов. Понизь уровень на{" "}
+          <Link href="/dashboard" className="text-indigo-400 hover:underline">
+            дашборде
+          </Link>{" "}
+          или добавь свои в{" "}
           <Link href="/dictionary" className="text-indigo-400 hover:underline">
             словаре
-          </Link>{" "}
-          или через клик по слову в{" "}
-          <Link href="/reading" className="text-indigo-400 hover:underline">
-            чтении
           </Link>
           .
         </p>
@@ -60,7 +62,9 @@ export default function CardsPage() {
         <div className="mt-6 flex justify-center gap-3">
           <Button
             onClick={() => {
-              setWords(sortForReview(getWords()));
+              const level = getUserLevel();
+              const all = getWords().filter((w) => meetsLevel(w.level, level));
+              setWords(sortForReview(all));
               setIndex(0);
               setRevealed(false);
             }}

@@ -486,5 +486,149 @@
   { "id": "e398","question": "There's a problem, ___?", "options": ["isn't there", "isn't it", "doesn't it"], "answer": "isn't there", "explanation": "Tag к There is → isn't there.", "topic": "Финал tags", "level": "B1" },
 
   { "id": "e399","question": "He was ___ shocked he couldn't speak.", "options": ["so", "such", "very"], "answer": "so", "explanation": "so + прил. + that → так … что.", "topic": "Финал so/such", "level": "B1" },
-  { "id": "e400","question": "It was ___ a long meeting!", "options": ["so", "such", "very"], "answer": "such", "explanation": "such + a + прил. + сущ.", "topic": "Финал so/such", "level": "B1" }
+  { "id": "e400","question": "It was ___ a long meeting!", "options": ["so", "such", "very"], "answer": "such", "explanation": "such + a + прил. + сущ.", "topic": "Финал so/such", "level": "B1" },
+
+  { "id": "e401","question": "Hardly ___ when the storm began.", "options": ["had we arrived","we had arrived","we arrived"], "answer": "had we arrived", "explanation": "Инверсия с hardly: hardly + had + подлеж. + V3.", "topic": "Инверсия", "level": "B2" },
+  { "id": "e402","question": "Never ___ such a beautiful sunset.", "options": ["I have seen","have I seen","I saw"], "answer": "have I seen", "explanation": "Инверсия с never в начале: have/has + подлеж. + V3.", "topic": "Инверсия", "level": "B2" },
+  { "id": "e403","question": "Not only ___ the report, but he also presented it.", "options": ["he wrote","did he write","he did write"], "answer": "did he write", "explanation": "После Not only в начале — инверсия с do/did.", "topic": "Инверсия", "level": "B2" },
+  { "id": "e404","question": "Rarely ___ such kindness from a stranger.", "options": ["I have met","have I met","I met"], "answer": "have I met", "explanation": "Rarely в начале → инверсия (как never).", "topic": "Инверсия", "level": "B2" },
+  { "id": "e405","question": "Under no circumstances ___ the door open.", "options": ["should you leave","you should leave","you leave"], "answer": "should you leave", "explanation": "Отрицательная фраза в начале → инверсия с модальным.", "topic": "Инверсия", "level": "B2" },
+  { "id": "e406","question": "No sooner ___ I sat down than the phone rang.", "options": ["had","did","have"], "answer": "had", "explanation": "No sooner ... than — инверсия с had + V3.", "topic": "Инверсия", "level": "B2" },
+
+  { "id": "e407","question": "If only I ___ harder, I would have passed.", "options": ["studied","had studied","would study"], "answer": "had studied", "explanation": "If only + past perfect → нереальное сожаление о прошлом.", "topic": "Mixed conditionals", "level": "B2" },
+  { "id": "e408","question": "If I had taken that job, I ___ rich now.", "options": ["would be","would have been","was"], "answer": "would be", "explanation": "Mixed conditional: past condition + present result.", "topic": "Mixed conditionals", "level": "B2" },
+  { "id": "e409","question": "If she ___ more confident, she would have applied last year.", "options": ["was","were","had been"], "answer": "were", "explanation": "Mixed: present condition (характер) + past result → If she were ... she would have ...", "topic": "Mixed conditionals", "level": "B2" },
+  { "id": "e410","question": "Had I known earlier, I ___ differently.", "options": ["would act","would have acted","had acted"], "answer": "would have acted", "explanation": "Инверсия в 3rd Conditional + would have + V3.", "topic": "Mixed conditionals", "level": "B2" },
+  { "id": "e411","question": "Were I in your position, I ___ accept.", "options": ["wouldn't","didn't","won't"], "answer": "wouldn't", "explanation": "Инверсия в 2nd Conditional: Were I ... wouldn't.", "topic": "Mixed conditionals", "level": "B2" },
+
+  { "id": "e412","question": "She regrets ___ him the truth.", "options": ["to tell","telling","told"], "answer": "telling", "explanation": "regret + V-ing → жалеть о сделанном.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e413","question": "I regret ___ you that the position is filled.", "options": ["to inform","informing","inform"], "answer": "to inform", "explanation": "regret + to + V → формальный «к сожалению».", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e414","question": "He stopped ___ for a moment.", "options": ["to rest","resting","rest"], "answer": "to rest", "explanation": "stop + to + V → остановиться, чтобы.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e415","question": "She remembers ___ the kettle off.", "options": ["to turn","turning","turn"], "answer": "turning", "explanation": "remember + V-ing → помнить о прошлом действии.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e416","question": "I'd love ___ you again.", "options": ["seeing","to see","seen"], "answer": "to see", "explanation": "After would love → to + V.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e417","question": "He admitted ___ the money.", "options": ["to take","taking","took"], "answer": "taking", "explanation": "admit + V-ing.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e418","question": "She managed ___ the deadline.", "options": ["meeting","to meet","met"], "answer": "to meet", "explanation": "manage + to + V.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+  { "id": "e419","question": "I can't help ___ when I see this.", "options": ["to laugh","laughing","laugh"], "answer": "laughing", "explanation": "can't help + V-ing → не могу удержаться.", "topic": "Gerund/Infinitive расш.", "level": "B2" },
+
+  { "id": "e420","question": "She had her car ___ last week.", "options": ["repair","repaired","to repair"], "answer": "repaired", "explanation": "have + сущ. + V3 → каузатив.", "topic": "Каузативы", "level": "B2" },
+  { "id": "e421","question": "I'll get the contract ___ tomorrow.", "options": ["sign","signed","to sign"], "answer": "signed", "explanation": "get + сущ. + V3 → мне сделают.", "topic": "Каузативы", "level": "B2" },
+  { "id": "e422","question": "He had his suit ___ in Italy.", "options": ["make","made","to make"], "answer": "made", "explanation": "had + сущ. + V3.", "topic": "Каузативы", "level": "B2" },
+  { "id": "e423","question": "We had the roof ___ last summer.", "options": ["fix","fixed","fixing"], "answer": "fixed", "explanation": "Каузативная конструкция have + V3.", "topic": "Каузативы", "level": "B2" },
+
+  { "id": "e424","question": "She is reported ___ the project.", "options": ["leading","to be leading","that she leads"], "answer": "to be leading", "explanation": "Report + to be + V-ing → пассивный паттерн.", "topic": "Reported passive", "level": "B2" },
+  { "id": "e425","question": "He is said ___ a great teacher.", "options": ["to be","being","was"], "answer": "to be", "explanation": "Be said + to + be — пассивный косвенный.", "topic": "Reported passive", "level": "B2" },
+  { "id": "e426","question": "They are believed ___ the country.", "options": ["leaving","to have left","left"], "answer": "to have left", "explanation": "be believed + to have + V3 → прошлое действие в пассиве.", "topic": "Reported passive", "level": "B2" },
+  { "id": "e427","question": "She is known ___ many languages.", "options": ["to speak","speaking","spoke"], "answer": "to speak", "explanation": "be known + to + V.", "topic": "Reported passive", "level": "B2" },
+
+  { "id": "e428","question": "By the end of next month, I ___ here for ten years.", "options": ["work","will have worked","will work"], "answer": "will have worked", "explanation": "Future Perfect: will have + V3.", "topic": "Future Perfect", "level": "B2" },
+  { "id": "e429","question": "She ___ her project by Friday.", "options": ["will finish","will have finished","is finishing"], "answer": "will have finished", "explanation": "by + time в будущем → Future Perfect.", "topic": "Future Perfect", "level": "B2" },
+  { "id": "e430","question": "This time tomorrow we ___ on the beach.", "options": ["will lie","will be lying","will have lain"], "answer": "will be lying", "explanation": "this time tomorrow → Future Continuous.", "topic": "Future Continuous", "level": "B2" },
+  { "id": "e431","question": "At 5 p.m. on Sunday, they ___ the marathon.", "options": ["are running","will be running","have run"], "answer": "will be running", "explanation": "Конкретный момент в будущем → Future Continuous.", "topic": "Future Continuous", "level": "B2" },
+
+  { "id": "e432","question": "She suggested ___ for a walk.", "options": ["to go","going","that we go"], "answer": "going", "explanation": "suggest + V-ing (или that-clause).", "topic": "Suggest / Recommend", "level": "B2" },
+  { "id": "e433","question": "They recommended ___ the museum.", "options": ["to visit","visiting","visit"], "answer": "visiting", "explanation": "recommend + V-ing.", "topic": "Suggest / Recommend", "level": "B2" },
+  { "id": "e434","question": "I suggest we ___ now.", "options": ["leave","leaving","to leave"], "answer": "leave", "explanation": "suggest (that) + subject + base form (subjunctive).", "topic": "Suggest / Recommend", "level": "B2" },
+
+  { "id": "e435","question": "He insisted on ___ for everyone.", "options": ["to pay","paying","pay"], "answer": "paying", "explanation": "insist on + V-ing.", "topic": "Предлог + V-ing", "level": "B2" },
+  { "id": "e436","question": "I'm tired of ___ the same excuses.", "options": ["hear","to hear","hearing"], "answer": "hearing", "explanation": "tired of + V-ing.", "topic": "Предлог + V-ing", "level": "B2" },
+  { "id": "e437","question": "We're looking forward to ___ from you.", "options": ["hear","hearing","heard"], "answer": "hearing", "explanation": "look forward to (here 'to' is preposition) + V-ing.", "topic": "Предлог + V-ing", "level": "B2" },
+  { "id": "e438","question": "She apologized for ___ late.", "options": ["be","being","to be"], "answer": "being", "explanation": "apologize for + V-ing.", "topic": "Предлог + V-ing", "level": "B2" },
+
+  { "id": "e439","question": "He behaves as if he ___ everything.", "options": ["knows","knew","had known"], "answer": "knew", "explanation": "as if + past subjunctive → нереальная гипотеза.", "topic": "As if / As though", "level": "B2" },
+  { "id": "e440","question": "She talks as if she ___ there.", "options": ["was","were","had been"], "answer": "had been", "explanation": "as if + Past Perfect → нереальное прошлое.", "topic": "As if / As though", "level": "B2" },
+  { "id": "e441","question": "He acts as though he ___ in charge.", "options": ["is","was","were"], "answer": "were", "explanation": "as though + were → нереально в настоящем.", "topic": "As if / As though", "level": "B2" },
+
+  { "id": "e442","question": "Provided that you ___ the rules, you'll succeed.", "options": ["follow","will follow","followed"], "answer": "follow", "explanation": "provided that + Present Simple (вместо if).", "topic": "Conditional connectors", "level": "B2" },
+  { "id": "e443","question": "I'll come ___ you promise to be on time.", "options": ["if","as long as","unless"], "answer": "as long as", "explanation": "as long as = условие.", "topic": "Conditional connectors", "level": "B2" },
+  { "id": "e444","question": "In case it ___ rain, take an umbrella.", "options": ["will","is","—"], "answer": "—", "explanation": "in case + Present Simple (без will).", "topic": "Conditional connectors", "level": "B2" },
+  { "id": "e445","question": "Supposing she ___ no, what would you do?", "options": ["says","said","would say"], "answer": "said", "explanation": "Supposing + Past Simple → гипотет. сценарий.", "topic": "Conditional connectors", "level": "B2" },
+
+  { "id": "e446","question": "It's about time you ___ the truth.", "options": ["tell","told","to tell"], "answer": "told", "explanation": "It's about time + past form → пора уже.", "topic": "It's time / About time", "level": "B2" },
+  { "id": "e447","question": "It's high time we ___ a decision.", "options": ["make","made","to make"], "answer": "made", "explanation": "It's high time + past form.", "topic": "It's time / About time", "level": "B2" },
+
+  { "id": "e448","question": "She was made ___ overtime.", "options": ["work","to work","working"], "answer": "to work", "explanation": "be made + to + V → пассив make.", "topic": "Make / Let passive", "level": "B2" },
+  { "id": "e449","question": "They let me ___ the document.", "options": ["read","to read","reading"], "answer": "read", "explanation": "let + V (без to).", "topic": "Make / Let passive", "level": "B2" },
+
+  { "id": "e450","question": "There's no point ___ about it now.", "options": ["to worry","worrying","worry"], "answer": "worrying", "explanation": "There's no point + V-ing.", "topic": "Distinctive structures", "level": "B2" },
+  { "id": "e451","question": "It's no use ___ over spilt milk.", "options": ["to cry","crying","cry"], "answer": "crying", "explanation": "It's no use + V-ing.", "topic": "Distinctive structures", "level": "B2" },
+  { "id": "e452","question": "I'm having difficulty ___ his accent.", "options": ["to understand","understanding","understand"], "answer": "understanding", "explanation": "have difficulty + V-ing.", "topic": "Distinctive structures", "level": "B2" },
+
+  { "id": "e453","question": "He acted ___ if nothing had happened.", "options": ["like","as","such"], "answer": "as", "explanation": "as if/as though — устойчивая структура.", "topic": "As / Like нюансы", "level": "B2" },
+  { "id": "e454","question": "He works as ___ accountant.", "options": ["a","an","the"], "answer": "an", "explanation": "accountant — гласн. звук → an.", "topic": "As / Like нюансы", "level": "B2" },
+
+  { "id": "e455","question": "She gave a ___ speech.", "options": ["moving","moved","move"], "answer": "moving", "explanation": "moving → трогательный (-ing качество).", "topic": "Participles", "level": "B2" },
+  { "id": "e456","question": "He was deeply ___ by her story.", "options": ["moving","moved","move"], "answer": "moved", "explanation": "moved → растроганный (-ed чувство).", "topic": "Participles", "level": "B2" },
+  { "id": "e457","question": "___ in the corner, the cat slept.", "options": ["Curl","Curling","Curled"], "answer": "Curled", "explanation": "Past participle clause → сжатый/свернувшийся.", "topic": "Participles", "level": "B2" },
+  { "id": "e458","question": "___ tomorrow's deadline, I worked late.", "options": ["Faced","Facing","Having faced"], "answer": "Facing", "explanation": "Present participle clause → причина/контекст.", "topic": "Participles", "level": "B2" },
+
+  { "id": "e459","question": "She has ___ been working on this.", "options": ["always","ever","never"], "answer": "always", "explanation": "always между have и V3/Continuous.", "topic": "Position of adverbs", "level": "B2" },
+  { "id": "e460","question": "I ___ go to bed before midnight.", "options": ["seldom","never times","rarely never"], "answer": "seldom", "explanation": "seldom — наречие частоты, перед глаголом.", "topic": "Position of adverbs", "level": "B2" },
+
+  { "id": "e461","question": "She speaks not only English ___ French.", "options": ["but also","also","and"], "answer": "but also", "explanation": "not only ... but also.", "topic": "Correlatives", "level": "B2" },
+  { "id": "e462","question": "Both my parents ___ teachers.", "options": ["is","are","was"], "answer": "are", "explanation": "both → мн.ч.", "topic": "Correlatives", "level": "B2" },
+  { "id": "e463","question": "Either you ___ or I do.", "options": ["come","comes","will come"], "answer": "come", "explanation": "Either ... or + согласование по ближайшему.", "topic": "Correlatives", "level": "B2" },
+
+  { "id": "e464","question": "I'd rather you ___ smoke here.", "options": ["don't","didn't","won't"], "answer": "didn't", "explanation": "would rather you + past form → пожелание адресату.", "topic": "Would rather adv.", "level": "B2" },
+  { "id": "e465","question": "He'd rather have stayed home, ___ go out.", "options": ["than","then","instead"], "answer": "than", "explanation": "would rather X than Y.", "topic": "Would rather adv.", "level": "B2" },
+
+  { "id": "e466","question": "He has ___ that I should resign.", "options": ["proposed","suggested","both A and B"], "answer": "both A and B", "explanation": "propose/suggest + that-clause.", "topic": "Mandative subjunctive", "level": "B2" },
+  { "id": "e467","question": "It is essential that she ___ on time.", "options": ["arrives","arrive","arrived"], "answer": "arrive", "explanation": "Mandative subjunctive: base form в that-clause после essential.", "topic": "Mandative subjunctive", "level": "B2" },
+  { "id": "e468","question": "The lawyer demanded that he ___ present.", "options": ["is","be","was"], "answer": "be", "explanation": "demand that + subjunctive be.", "topic": "Mandative subjunctive", "level": "B2" },
+
+  { "id": "e469","question": "Whatever ___ you do, I'll support you.", "options": ["maybe","may","might"], "answer": "may", "explanation": "Whatever + may + V — устойчивая структура уступки.", "topic": "Subordinate concessions", "level": "B2" },
+  { "id": "e470","question": "However hard he ___, he can't sleep.", "options": ["tries","tried","try"], "answer": "tries", "explanation": "However + прил./нареч. + subject + V.", "topic": "Subordinate concessions", "level": "B2" },
+  { "id": "e471","question": "No matter what ___, don't open the door.", "options": ["happens","will happen","is happening"], "answer": "happens", "explanation": "no matter what + Present Simple.", "topic": "Subordinate concessions", "level": "B2" },
+
+  { "id": "e472","question": "I wish I ___ a better job last year.", "options": ["accepted","had accepted","would accept"], "answer": "had accepted", "explanation": "wish + Past Perfect → сожаление о прошлом.", "topic": "Wish продвинутый", "level": "B2" },
+  { "id": "e473","question": "I wish she ___ smoke around the kids.", "options": ["doesn't","wouldn't","didn't"], "answer": "wouldn't", "explanation": "wish + would → раздражение из-за привычки.", "topic": "Wish продвинутый", "level": "B2" },
+
+  { "id": "e474","question": "She tends ___ overcomplicating things.", "options": ["to","toward","towards"], "answer": "toward", "explanation": "tend toward + V-ing/сущ.", "topic": "Идиоматич. предлоги", "level": "B2" },
+  { "id": "e475","question": "He's been keen ___ that opportunity for years.", "options": ["of","on","at"], "answer": "on", "explanation": "keen on + сущ./V-ing.", "topic": "Идиоматич. предлоги", "level": "B2" },
+  { "id": "e476","question": "She's responsible ___ the new team.", "options": ["of","for","to"], "answer": "for", "explanation": "responsible for + сущ.", "topic": "Идиоматич. предлоги", "level": "B2" },
+  { "id": "e477","question": "I'm conscious ___ the risk.", "options": ["of","about","for"], "answer": "of", "explanation": "conscious of → осознавать.", "topic": "Идиоматич. предлоги", "level": "B2" },
+  { "id": "e478","question": "He's fond ___ classical music.", "options": ["with","of","at"], "answer": "of", "explanation": "fond of → любить.", "topic": "Идиоматич. предлоги", "level": "B2" },
+
+  { "id": "e479","question": "She managed ___ catch the last train.", "options": ["—","to","at"], "answer": "to", "explanation": "manage + to + V.", "topic": "Verb patterns обзор", "level": "B2" },
+  { "id": "e480","question": "He admitted ___ a mistake.", "options": ["to make","making","make"], "answer": "making", "explanation": "admit + V-ing.", "topic": "Verb patterns обзор", "level": "B2" },
+
+  { "id": "e481","question": "Notwithstanding the rain, the event ___.", "options": ["went ahead","went up","went down"], "answer": "went ahead", "explanation": "go ahead → состоялось.", "topic": "Formal expressions", "level": "C1" },
+  { "id": "e482","question": "By no means ___ the case settled.", "options": ["is","does","has"], "answer": "is", "explanation": "By no means в начале → инверсия с is.", "topic": "Formal expressions", "level": "C1" },
+  { "id": "e483","question": "Were it not ___ her support, I'd have failed.", "options": ["for","of","to"], "answer": "for", "explanation": "Were it not for + N → формальный «если бы не».", "topic": "Formal expressions", "level": "C1" },
+  { "id": "e484","question": "Had it not been ___ him, we'd have lost.", "options": ["for","of","to"], "answer": "for", "explanation": "Had it not been for → формальная инверсия 3rd cond.", "topic": "Formal expressions", "level": "C1" },
+
+  { "id": "e485","question": "She might ___ the meeting.", "options": ["have skipped","had skipped","skip"], "answer": "have skipped", "explanation": "might have + V3 → возможно, сделала.", "topic": "Modals продв.", "level": "C1" },
+  { "id": "e486","question": "He can't possibly ___ that.", "options": ["have meant","have mean","be mean"], "answer": "have meant", "explanation": "can't have + V3 → не мог сделать (уверенность).", "topic": "Modals продв.", "level": "C1" },
+  { "id": "e487","question": "We ought ___ him sooner.", "options": ["have warned","to have warned","warn"], "answer": "to have warned", "explanation": "ought to have + V3 → стоило бы.", "topic": "Modals продв.", "level": "C1" },
+  { "id": "e488","question": "You needn't ___ all that food.", "options": ["have bought","bought","buying"], "answer": "have bought", "explanation": "needn't have + V3 → не нужно было (но сделал).", "topic": "Modals продв.", "level": "C1" },
+
+  { "id": "e489","question": "Little ___ that he was being watched.", "options": ["he knew","did he know","knew he"], "answer": "did he know", "explanation": "Little в начале → инверсия с did.", "topic": "Stylistic inversion", "level": "C1" },
+  { "id": "e490","question": "Seldom ___ a more interesting case.", "options": ["I encountered","have I encountered","I have encountered"], "answer": "have I encountered", "explanation": "Seldom в начале → инверсия с have.", "topic": "Stylistic inversion", "level": "C1" },
+  { "id": "e491","question": "Only when she left ___ how much he loved her.", "options": ["he realized","did he realize","he did realize"], "answer": "did he realize", "explanation": "Only when ... → инверсия в главной части.", "topic": "Stylistic inversion", "level": "C1" },
+
+  { "id": "e492","question": "It was not until midnight ___ they arrived.", "options": ["when","that","which"], "answer": "that", "explanation": "Cleft sentence: It was X that ... → эмфаза.", "topic": "Cleft sentences", "level": "C1" },
+  { "id": "e493","question": "What he wants ___ a fresh start.", "options": ["is","are","be"], "answer": "is", "explanation": "Pseudo-cleft: What ... is + N (формальный фокус).", "topic": "Cleft sentences", "level": "C1" },
+  { "id": "e494","question": "All ___ I need is your honest opinion.", "options": ["that","which","what"], "answer": "that", "explanation": "All that ... → структура с фокусом.", "topic": "Cleft sentences", "level": "C1" },
+
+  { "id": "e495","question": "He ___ have known about it; it's been all over the news.", "options": ["must","might","should"], "answer": "must", "explanation": "must have + V3 → уверенный вывод о прошлом.", "topic": "Deduction past", "level": "C1" },
+  { "id": "e496","question": "She ___ have read the email; she's online.", "options": ["could","might","may"], "answer": "may", "explanation": "may have + V3 → возможно, прочла.", "topic": "Deduction past", "level": "C1" },
+
+  { "id": "e497","question": "I'd really appreciate ___ if you helped me.", "options": ["this","it","that"], "answer": "it", "explanation": "appreciate it + if-clause — устойчивая вежливая структура.", "topic": "Вежливые формулы", "level": "C1" },
+  { "id": "e498","question": "Would you be so ___ as to open the door?", "options": ["kind","good","nice"], "answer": "kind", "explanation": "Would you be so kind as to + V → очень вежливый формализм.", "topic": "Вежливые формулы", "level": "C1" },
+  { "id": "e499","question": "I'd be obliged ___ you could confirm by Friday.", "options": ["if","that","when"], "answer": "if", "explanation": "I'd be obliged if + clause → формальная просьба.", "topic": "Вежливые формулы", "level": "C1" },
+
+  { "id": "e500","question": "Such ___ his fame that strangers recognized him.", "options": ["is","was","were"], "answer": "was", "explanation": "Such was X that ... → формальная эмфатическая структура.", "topic": "Stylistic structures", "level": "C1" },
+  { "id": "e501","question": "So ___ was she that she finished the marathon.", "options": ["determine","determined","determining"], "answer": "determined", "explanation": "So + прил. + was/were + подлеж. — инверсия.", "topic": "Stylistic structures", "level": "C1" },
+  { "id": "e502","question": "Were ___ the chance, I would take it now.", "options": ["I given","I to give","to be given"], "answer": "I given", "explanation": "Were + подлеж. + V3 → формальная инверсия 2nd cond. в пассиве.", "topic": "Stylistic structures", "level": "C1" },
+
+  { "id": "e503","question": "What he said ___ entirely correct.", "options": ["was","were","be"], "answer": "was", "explanation": "What-clause как подлеж. → ед.ч.", "topic": "Согласование продв.", "level": "C1" },
+  { "id": "e504","question": "Either his comments or her response ___ unhelpful.", "options": ["was","were","be"], "answer": "was", "explanation": "Either ... or → согласование с ближайшим (response — ед.ч.).", "topic": "Согласование продв.", "level": "C1" },
+
+  { "id": "e505","question": "The committee, ___ has met twice, will issue a report.", "options": ["who","which","that"], "answer": "which", "explanation": "Non-defining relative с запятыми → which.", "topic": "Relative продв.", "level": "C1" },
+  { "id": "e506","question": "The book, ___ I wrote in 2020, sold well.", "options": ["who","which","whom"], "answer": "which", "explanation": "Object relative для вещи в неогранич. → which.", "topic": "Relative продв.", "level": "C1" },
+  { "id": "e507","question": "She's the one with ___ I spoke earlier.", "options": ["who","whom","that"], "answer": "whom", "explanation": "После предлога — whom (формально).", "topic": "Relative продв.", "level": "C1" },
+
+  { "id": "e508","question": "He gave a speech, ___ moved everyone.", "options": ["which","what","that"], "answer": "which", "explanation": "which → может ссылаться на всю предыдущую clause.", "topic": "Relative продв.", "level": "C1" },
+
+  { "id": "e509","question": "The sooner you start, the ___ you'll finish.", "options": ["sooner","more","faster"], "answer": "sooner", "explanation": "the + comparative ... the + comparative.", "topic": "Comparative structures", "level": "C1" },
+  { "id": "e510","question": "She was no less ___ than her brother.", "options": ["confidently","confident","confidence"], "answer": "confident", "explanation": "no less + прил. + than.", "topic": "Comparative structures", "level": "C1" }
 ]

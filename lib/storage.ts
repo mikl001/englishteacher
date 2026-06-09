@@ -9,7 +9,9 @@ import type {
   DailyProgress,
   ChatMessage,
   ChatSettings,
+  Level,
 } from "./types";
+import { LEVEL_ORDER } from "./types";
 import { DEFAULT_SETTINGS } from "./chat";
 import defaultWordsData from "@/data/default-words.json";
 import defaultTextsData from "@/data/default-texts.json";
@@ -21,10 +23,37 @@ const EXERCISES_KEY = "exercises";
 const PROGRESS_KEY = "progress";
 const CHAT_SETTINGS_KEY = "chat_settings";
 const CHAT_HISTORY_KEY = "chat_history";
+const USER_LEVEL_KEY = "user_level";
+
+const DEFAULT_USER_LEVEL: Level = "A2";
+
+// ===== Уровень пользователя =====
+
+export function getUserLevel(): Level {
+  if (typeof window === "undefined") return DEFAULT_USER_LEVEL;
+  const raw = window.localStorage.getItem(USER_LEVEL_KEY);
+  if (raw && (raw === "A1" || raw === "A2" || raw === "B1" || raw === "B2" || raw === "C1")) {
+    return raw;
+  }
+  return DEFAULT_USER_LEVEL;
+}
+
+export function setUserLevel(level: Level): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(USER_LEVEL_KEY, level);
+}
+
+// Проверяет, подходит ли элемент уровню пользователя.
+// Логика: показываем элементы уровня userLevel и ВЫШЕ.
+// Элементы без явного level считаются базовыми (A1) — пользователю с B2+ они не видны.
+export function meetsLevel(itemLevel: Level | undefined, userLevel: Level): boolean {
+  const il = itemLevel ?? "A1";
+  return LEVEL_ORDER[il] >= LEVEL_ORDER[userLevel];
+}
 
 // Версия дефолтного контента. При увеличении старые кеши слов/текстов/упражнений
 // автоматически перезатираются новым набором, прогресс при этом сохраняется.
-const DEFAULTS_VERSION = 5;
+const DEFAULTS_VERSION = 6;
 const VERSION_KEY = "defaults_version";
 
 function maybeMigrateDefaults(): void {

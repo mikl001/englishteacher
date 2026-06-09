@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { Word } from "@/lib/types";
-import { getWords, recordReview } from "@/lib/storage";
+import { getUserLevel, getWords, meetsLevel, recordReview } from "@/lib/storage";
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
 import { ProgressBar } from "@/components/ProgressBar";
@@ -26,7 +26,9 @@ export default function TypingPage() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setWords(sortForTraining(getWords()));
+    const level = getUserLevel();
+    const all = getWords().filter((w) => meetsLevel(w.level, level));
+    setWords(sortForTraining(all));
   }, []);
 
   useEffect(() => {
@@ -67,7 +69,9 @@ export default function TypingPage() {
         <div className="mt-6 flex justify-center gap-3">
           <Button
             onClick={() => {
-              setWords(sortForTraining(getWords()));
+              const level = getUserLevel();
+              const all = getWords().filter((w) => meetsLevel(w.level, level));
+              setWords(sortForTraining(all));
               setIndex(0);
               setInput("");
               setVerdict("idle");

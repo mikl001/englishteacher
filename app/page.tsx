@@ -48,10 +48,10 @@ const features = [
 ];
 
 const stats = [
-  { value: "1200", label: "слов в наборе" },
-  { value: "120", label: "текстов · A1–B1" },
-  { value: "400", label: "упражнений" },
-  { value: "7", label: "инструментов" },
+  { value: "1400+", label: "слов · A1–C1" },
+  { value: "145", label: "текстов · A1–C1" },
+  { value: "510", label: "упражнений" },
+  { value: "5", label: "уровней (A1–C1)" },
 ];
 
 const stack = [

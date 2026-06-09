@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { ReadingText, Word } from "@/lib/types";
-import { addWord, findWordByEnglish, getTexts } from "@/lib/storage";
+import { addWord, findWordByEnglish, getTexts, getUserLevel, meetsLevel } from "@/lib/storage";
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
 import { SpeakButton } from "@/components/SpeakButton";
@@ -21,7 +21,8 @@ export default function ReadingPage() {
   const [currentId, setCurrentId] = useState<string | null>(null);
 
   useEffect(() => {
-    setTexts(getTexts());
+    const level = getUserLevel();
+    setTexts(getTexts().filter((t) => meetsLevel(t.level, level)));
   }, []);
 
   // Если currentId ссылается на исчезнувший текст (после сброса данных) —
@@ -79,13 +80,17 @@ export default function ReadingPage() {
   );
 }
 
-function LevelBadge({ level }: { level: "A1" | "A2" | "B1" }) {
+function LevelBadge({ level }: { level: "A1" | "A2" | "B1" | "B2" | "C1" }) {
   const tone =
     level === "A1"
       ? "bg-emerald-500/10 text-emerald-300 border-emerald-500/30"
       : level === "A2"
+      ? "bg-teal-500/10 text-teal-300 border-teal-500/30"
+      : level === "B1"
       ? "bg-amber-500/10 text-amber-300 border-amber-500/30"
-      : "bg-indigo-500/10 text-indigo-300 border-indigo-500/30";
+      : level === "B2"
+      ? "bg-orange-500/10 text-orange-300 border-orange-500/30"
+      : "bg-rose-500/10 text-rose-300 border-rose-500/30";
   return (
     <span className={`rounded-md border px-2 py-0.5 font-mono text-xs ${tone}`}>
       {level}

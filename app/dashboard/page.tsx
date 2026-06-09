@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Card } from "@/components/Card";
 import { StatCard } from "@/components/StatCard";
+import { LevelSelector } from "@/components/LevelSelector";
 import {
   getWords,
   getTexts,
@@ -106,6 +107,23 @@ export default function DashboardPage() {
           value={`${data.totalKnown} / ${data.totalWords}`}
           hint="изучено / всего"
         />
+      </section>
+
+      <section>
+        <div className="mb-4 flex items-baseline justify-between gap-3">
+          <h2 className="text-xs font-medium uppercase tracking-wider text-zinc-500">
+            Твой уровень
+          </h2>
+          <span className="text-xs text-zinc-500">
+            фильтрует слова, тексты и упражнения
+          </span>
+        </div>
+        <Card className="p-5">
+          <LevelSelector />
+          <p className="mt-4 text-xs text-zinc-500">
+            Показывается контент выбранного уровня и выше. Выбери B2 или C1, если базовое уже легко.
+          </p>
+        </Card>
       </section>
 
       <section>
